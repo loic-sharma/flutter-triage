@@ -20,6 +20,8 @@ jobs:
 
       - name: Generate dashboards
         run: dart main.dart
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Commit and push if data has changed
         id: commit-if-changed
