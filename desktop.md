@@ -12,7 +12,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 [3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
-Issue | Comments
+Name | Comments
 -- | --
 [Add platform view supports on Linux](https://github.com/flutter/flutter/pull/74814)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: platform-views`](https://github.com/flutter/flutter/labels/a%3A%20platform-views), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#74814](https://github.com/flutter/flutter/pull/74814) opened on January 27, 2021 by [huanghongxun](https://api.github.com/users/huanghongxun)</sub> | 💬 [29](https://github.com/flutter/flutter/pull/74814)
 [Add macOS-specific scroll physics](https://github.com/flutter/flutter/pull/108298)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#108298](https://github.com/flutter/flutter/pull/108298) opened on July 25, 2022 by [moffatman](https://api.github.com/users/moffatman)</sub> | 💬 [2](https://github.com/flutter/flutter/pull/108298)
@@ -22,7 +22,7 @@ Issue | Comments
 
 [1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Issue | Comments
+Name | Comments
 -- | --
 [App Crash on macOS Version:11.2.3](https://github.com/flutter/flutter/issues/108727)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`e: OS Version specific`](https://github.com/flutter/flutter/labels/e%3A%20OS%20Version%20specific), [`a: production`](https://github.com/flutter/flutter/labels/a%3A%20production), [`severe: fatal crash`](https://github.com/flutter/flutter/labels/severe%3A%20fatal%20crash)<br />[#108727](https://github.com/flutter/flutter/issues/108727) opened on August 1, 2022 by [Renqianbei](https://api.github.com/users/Renqianbei)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/108727)
 
@@ -45,7 +45,7 @@ Issue | Comments
 
 [1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22team%3A+flakes%22).
 
-Issue | Comments
+Name | Comments
 -- | --
 [AXPlatformNodeWinTest.IAccessibleHitTest is flaky](https://github.com/flutter/flutter/issues/98302)<br /><sub>[`a: tests`](https://github.com/flutter/flutter/labels/a%3A%20tests), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed secondary triage`](https://github.com/flutter/flutter/labels/passed%20secondary%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4), [`severe: flake`](https://github.com/flutter/flutter/labels/severe%3A%20flake)<br />[#98302](https://github.com/flutter/flutter/issues/98302) opened on February 12, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/98302)
 
@@ -53,7 +53,7 @@ Issue | Comments
 
 [10 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
-Issue | Comments
+Name | Comments
 -- | --
 [Incorrect horizontal caret movement with Unicode combining characters](https://github.com/flutter/flutter/issues/98516)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 2.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.10), [`found in release: 2.11`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.11)<br />[#98516](https://github.com/flutter/flutter/issues/98516) opened on February 15, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/98516)
 [Flutter linux desktop WARNING FlutterEngineUpdateLocales](https://github.com/flutter/flutter/issues/91420)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#91420](https://github.com/flutter/flutter/issues/91420) opened on October 7, 2021 by [cwangfr](https://api.github.com/users/cwangfr)</sub> | 💬 [7](https://github.com/flutter/flutter/issues/91420)
@@ -70,7 +70,7 @@ Issue | Comments
 
 [15 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
-Issue | Comments
+Name | Comments
 -- | --
 [Flutter for MacOS not work with Network Extension. ](https://github.com/flutter/flutter/issues/52877)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P6`](https://github.com/flutter/flutter/labels/P6)<br />[#52877](https://github.com/flutter/flutter/issues/52877) opened on March 19, 2020 by [whitemay](https://api.github.com/users/whitemay)</sub> | 💬 [18](https://github.com/flutter/flutter/issues/52877)
 [Segfault on engine deinitialize in custom embedder](https://github.com/flutter/flutter/issues/95125)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`e: embedder`](https://github.com/flutter/flutter/labels/e%3A%20embedder), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#95125](https://github.com/flutter/flutter/issues/95125) opened on December 12, 2021 by [jslater89](https://api.github.com/users/jslater89)</sub> | 💬 [10](https://github.com/flutter/flutter/issues/95125)
@@ -89,7 +89,7 @@ Issue | Comments
 
 [439 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
-Issue | Comments
+Name | Comments
 -- | --
 [Make it easy to use C# for Windows plugins](https://github.com/flutter/flutter/issues/64958)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#64958](https://github.com/flutter/flutter/issues/64958) opened on August 31, 2020 by [stuartmorgan](https://api.github.com/users/stuartmorgan)</sub> | 💬 [44](https://github.com/flutter/flutter/issues/64958)
 [[Desktop] ListView: Poor performance with many variable-extent items + jumpTo (scroll bar, trackpad, mouse wheels)](https://github.com/flutter/flutter/issues/52207)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`severe: performance`](https://github.com/flutter/flutter/labels/severe%3A%20performance), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`perf: speed`](https://github.com/flutter/flutter/labels/perf%3A%20speed), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 1.22`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%201.22), [`found in release: 1.23`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%201.23)<br />[#52207](https://github.com/flutter/flutter/issues/52207) opened on March 8, 2020 by [esDotDev](https://api.github.com/users/esDotDev)</sub> | 💬 [94](https://github.com/flutter/flutter/issues/52207)
@@ -108,7 +108,7 @@ Issue | Comments
 
 [77 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
-Issue | Comments
+Name | Comments
 -- | --
 [Support multiple windows for desktop shells](https://github.com/flutter/flutter/issues/30701)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#30701](https://github.com/flutter/flutter/issues/30701) opened on April 8, 2019 by [stuartmorgan](https://api.github.com/users/stuartmorgan)</sub> | 💬 [65](https://github.com/flutter/flutter/issues/30701)
 [Support drag and drop across Flutter boundary](https://github.com/flutter/flutter/issues/30719)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#30719](https://github.com/flutter/flutter/issues/30719) opened on April 8, 2019 by [stuartmorgan](https://api.github.com/users/stuartmorgan)</sub> | 💬 [49](https://github.com/flutter/flutter/issues/30719)
