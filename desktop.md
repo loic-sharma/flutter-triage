@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -33,11 +33,10 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[Windows app  File description should be taken from `pubspec.yaml`](https://github.com/flutter/flutter/issues/109095)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: release`](https://github.com/flutter/flutter/labels/a%3A%20release)<br />[#109095](https://github.com/flutter/flutter/issues/109095) opened on August 6, 2022 by [OutdatedGuy](https://api.github.com/users/OutdatedGuy)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/109095)
 [App Crash on macOS Version:11.2.3](https://github.com/flutter/flutter/issues/108727)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`e: OS Version specific`](https://github.com/flutter/flutter/labels/e%3A%20OS%20Version%20specific), [`a: production`](https://github.com/flutter/flutter/labels/a%3A%20production), [`severe: fatal crash`](https://github.com/flutter/flutter/labels/severe%3A%20fatal%20crash)<br />[#108727](https://github.com/flutter/flutter/issues/108727) opened on August 1, 2022 by [Renqianbei](https://api.github.com/users/Renqianbei)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/108727)
 
 ## P0 bugs
