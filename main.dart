@@ -93,14 +93,14 @@ void main() async {
   }
 
   output.writeln();
-  output.writeln('[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#desktop).');
-
-  output.writeln();
   output.writeln(
     'If you come across a bug that is unrelated to desktop app development, '
     'remove the `a: desktop label` and leave a comment explaining why. '
     'That will send it back to triage.'
   );
+
+  output.writeln();
+  output.writeln('[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#desktop).');
 
   for (var result in results) {
     output.writeln();
