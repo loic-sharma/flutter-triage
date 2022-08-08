@@ -66,31 +66,46 @@ void main() async {
     ),
   ];
 
+  // Run each triage query on GitHub API.
+  var results = <TriageQueryResult>[];
+  for (var triageQuery in queries) {
+    results.add(TriageQueryResult(
+      triageQuery: triageQuery,
+      response: await searchIssues(
+        'repo:${triageQuery.repo} ${triageQuery.query}',
+        token: token,
+      ),
+    ));
+  }
+
+  // Save triage query results.
   var output = File('desktop.md').openWrite();
 
   output.writeln('# Flutter desktop triage');
+
+  output.writeln('Triage queries:');
+  for (var result in results) {
+    var fragment = result.triageQuery.title.toLowerCase().replaceAll(' ', '-');
+    output.writeln(
+      '* [${result.triageQuery.title}](#$fragment) - '
+      '${result.response.totalCount} open'
+    );
+  }
+
+  output.writeln();
+  output.writeln('[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#desktop).');
+
+  output.writeln();
   output.writeln(
     'If you come across a bug that is unrelated to desktop app development, '
     'remove the `a: desktop label` and leave a comment explaining why. '
     'That will send it back to triage.'
   );
-  output.writeln();
-  output.writeln('[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#desktop).');
 
-  for (var triageQuery in queries) {
-    var issues = await searchIssues(
-      'repo:${triageQuery.repo} ${triageQuery.query}',
-      token: token
-    );
-
+  for (var result in results) {
     output.writeln();
-    writeIssues(
-      output,
-      triageQuery.title,
-      triageQuery.repo,
-      triageQuery.query,
-      issues,
-    );
+
+    writeIssues(output, result);
   }
 
   await output.flush();
@@ -107,6 +122,16 @@ class TriageQuery {
   final String title;
   final String repo;
   final String query;
+}
+
+class TriageQueryResult {
+  const TriageQueryResult({
+    required this.triageQuery,
+    required this.response,
+  });
+
+  final TriageQuery triageQuery;
+  final GitHubIssueSearchResponse response;
 }
 
 Future<GitHubIssueSearchResponse> searchIssues(
@@ -153,27 +178,22 @@ Future<GitHubIssueSearchResponse> searchIssues(
   throw 'GitHub search failed';
 }
 
-void writeIssues(
-  IOSink output,
-  String title,
-  String repo,
-  String query,
-  GitHubIssueSearchResponse response,
-) {
-  var encodedQuery = Uri.encodeQueryComponent(query);
+void writeIssues(IOSink output, TriageQueryResult result) {
+  var repo = result.triageQuery.repo;
+  var encodedQuery = Uri.encodeQueryComponent(result.triageQuery.query);
   var queryUrl = 'https://github.com/$repo/issues?q=$encodedQuery';
 
-  output.writeln('## $title');
+  output.writeln('## ${result.triageQuery.title}');
   output.writeln();
 
-  output.writeln('[${response.totalCount} open]($queryUrl).');
+  output.writeln('[${result.response.totalCount} open]($queryUrl).');
   output.writeln();
 
-  if (response.totalCount > 0) {
+  if (result.response.totalCount > 0) {
     output.writeln('Name | Comments');
     output.writeln('-- | --');
 
-    for (var item in response.items) {
+    for (var item in result.response.items) {
       var createdAt = DateFormat.yMMMMd().format(item.createdAt);
       var labels = item.labels
         .map((l) => '[`$l`](https://github.com/$repo/labels/${Uri.encodeComponent(l)})')
@@ -195,7 +215,8 @@ void writeIssues(
       );
     }
 
-    if (response.totalCount > response.items.length || response.incompleteResults) {
+    var isPaged = result.response.totalCount > result.response.items.length;
+    if (isPaged || result.response.incompleteResults) {
       output.writeln();
       output.writeln('[See more...]($queryUrl)');
     }
