@@ -6,7 +6,7 @@ name: Update dashboards
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 4 * * *"
+    - cron: "*/10 * * * *"
 
 jobs:
   scheduled:
