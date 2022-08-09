@@ -5,7 +5,47 @@ import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart' show DateFormat;
 import 'package:uri/uri.dart' show UriBuilder;
 
+Future graphql() async {
+  String? token = Platform.environment['GITHUB_TOKEN'];
+  var query = File('github_issues.graphql').readAsStringSync();
+
+  var uri = Uri.parse('https://api.github.com/graphql');
+  var headers = <String, String>{
+    'Authorization': 'bearer $token',
+  };
+
+  String? endCursor = null;
+
+  while (true) {
+    var response = await http.post(
+      uri,
+      headers: headers,
+      body: jsonEncode(<String, dynamic>{
+        'query': query,
+        'variables': <String, String?> {
+          'after': endCursor,
+        },
+      }),
+    );
+
+    var json = jsonDecode(response.body);
+    var remaining = json['data']['rateLimit']['remaining'];
+    var hasNextPage = json['data']['repository']['issues']['pageInfo']['hasNextPage'];
+    endCursor = json['data']['repository']['issues']['pageInfo']['endCursor'];
+
+    print('Remaining: $remaining, cursor: $endCursor');
+
+    if (!hasNextPage) {
+      print('Done');
+      break;
+    }
+  }
+}
+
 void main() async {
+  await graphql();
+  return;
+
   String? token = Platform.environment['GITHUB_TOKEN'];
 
   var queries = const [

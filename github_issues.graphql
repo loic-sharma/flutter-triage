@@ -1,0 +1,47 @@
+query GitHubIssues($after: String) {
+  rateLimit {
+    limit
+    cost
+    remaining
+    resetAt
+  }
+  repository(owner: "flutter", name: "flutter") {
+    issues(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: ASC}) {
+      totalCount
+      pageInfo {
+        startCursor
+        hasNextPage
+        endCursor
+      }
+      edges {
+        node {
+          number
+          url
+          title
+          createdAt
+          updatedAt
+          closedAt
+          author {
+            login
+            url
+          }
+          labels(first: 10) {
+            nodes {
+              name
+              color
+            }
+          }
+          comments {
+            totalCount
+          }
+          reactionGroups {
+            content
+            reactors {
+              totalCount
+            }
+          }
+        }
+      }
+    }
+  }
+}
