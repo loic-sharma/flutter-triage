@@ -6,7 +6,12 @@ query GitHubIssues($after: String) {
     resetAt
   }
   repository(owner: "flutter", name: "flutter") {
-    issues(first: 100, after: $after, orderBy: {field: CREATED_AT, direction: ASC}) {
+    issues(
+      states: [OPEN, CLOSED]
+      first: 100
+      after: $after
+      orderBy: {field: CREATED_AT, direction: ASC}
+    ) {
       totalCount
       pageInfo {
         startCursor
@@ -18,6 +23,7 @@ query GitHubIssues($after: String) {
           number
           url
           title
+          state
           createdAt
           updatedAt
           closedAt

@@ -14,7 +14,14 @@ Future graphql() async {
     'Authorization': 'bearer $token',
   };
 
+  var output = File('issues.csv').openWrite();
+  output.writeln(
+    'number, title, state, createdAt, updatedAt, closedAt, '
+    'author, authorUrl, comments, upvotes'
+  );
+
   String? endCursor = null;
+  var stopwatch = Stopwatch()..start();
 
   while (true) {
     var response = await http.post(
@@ -33,13 +40,144 @@ Future graphql() async {
     var hasNextPage = json['data']['repository']['issues']['pageInfo']['hasNextPage'];
     endCursor = json['data']['repository']['issues']['pageInfo']['endCursor'];
 
-    print('Remaining: $remaining, cursor: $endCursor');
+    List<dynamic> issueEdges = json['data']['repository']['issues']['edges'];
+    var issues = issueEdges
+      .map((e) => GitHubIssue.fromJson(e['node'] as Map<String, dynamic>))
+      .toList();
+
+    for (var issue in issues) {
+      output
+        ..write(issue.number)..write(',')
+        ..writeCsvString(issue.title)..write(',')
+        ..write(issue.open)..write(',')
+        ..write(issue.createdAt)..write(',')
+        ..write(issue.updatedAt)..write(',')
+        ..write(issue.closedAt)..write(',')
+        ..writeCsvString(issue.author)..write(',')
+        ..writeCsvString(issue.authorUrl.toString())..write(',')
+        ..write(issue.comments)..write(',')
+        ..write(issue.upvotes)..writeln();
+    }
+
+    print('Time: ${stopwatch.elapsed.inSeconds}s, rate limit remaining: $remaining');
 
     if (!hasNextPage) {
       print('Done');
       break;
     }
   }
+}
+
+extension CsvIOSink on IOSink {
+  void writeCsvString(String string) {
+    if (_isComplexCsvString(string)) {
+      this.write('"');
+      this.write(string.replaceAll('"', '\\"'));
+      this.write('"');
+    } else {
+      this.write(string);
+    }
+  }
+
+  bool _isComplexCsvString(String value) {
+    if (value.startsWith(' ') || value.endsWith(' ')) {
+      return true;
+    }
+
+    for (var c in const [',', '"', "\r", '\n']) {
+      if (value.contains(c)) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+}
+
+// https://api.github.com/repos/flutter/flutter/issues?state=all
+class GitHubIssue {
+  const GitHubIssue({
+    required this.number,
+    required this.url,
+    required this.title,
+    required this.open,
+    required this.createdAt,
+    required this.updatedAt,
+    required this.closedAt,
+    required this.author,
+    required this.authorUrl,
+    required this.comments,
+    required this.upvotes,
+    required this.labels,
+  });
+
+  factory GitHubIssue.fromJson(Map<String, dynamic> json) {
+    return GitHubIssue(
+      number: json['number'],
+      url: Uri.parse(json['url']),
+      title: json['title'],
+      open: json['state'] == 'OPEN',
+      createdAt: DateTime.parse(json['createdAt']),
+      updatedAt: DateTime.parse(json['createdAt']),
+      closedAt: DateTime.parse(json['createdAt']),
+      author: json['author'] == null
+        ? 'ghost'
+        : json['author']['login'],
+      authorUrl: json['author'] == null
+        ? Uri.parse('https://github.com/ghost')
+        : Uri.parse(json['author']['url']),
+      comments: json['comments']['totalCount'],
+      upvotes: _upvotes(json),
+      labels: _labels(json),
+    );
+  }
+
+  static int _upvotes(Map<String, dynamic> json) {
+    for (Map<String, dynamic> reaction in json['reactionGroups']) {
+      if (reaction['content'] == 'THUMBS_UP') {
+        return reaction['reactors']['totalCount'];
+      }
+    }
+
+    throw 'Could not find upvotes';
+  }
+
+  static List<GitHubLabel> _labels(Map<String, dynamic> json) {
+    List<dynamic> labelsJson = json['labels']['nodes'];
+    return labelsJson
+      .map((l) => GitHubLabel.fromJson(l as Map<String, dynamic>))
+      .toList();
+  }
+
+  final int number;
+  final Uri url;
+  final String title;
+  final bool open;
+  final DateTime createdAt;
+  final DateTime updatedAt;
+  final DateTime closedAt;
+  final String author;
+  final Uri authorUrl;
+  final int comments;
+  final int upvotes;
+  final List<GitHubLabel> labels;
+}
+
+class GitHubLabel {
+  const GitHubLabel({
+    required this.name,
+    required this.color,
+  });
+
+  factory GitHubLabel.fromJson(Map<String, dynamic> json) {
+    return GitHubLabel(
+      name: json['name'],
+      color: json['color'],
+    );
+  }
+
+  final String name;
+  final String color;
 }
 
 void main() async {
