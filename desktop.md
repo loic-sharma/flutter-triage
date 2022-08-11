@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 1 open
+* [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,11 +18,8 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[1 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[0 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
-Name | Comments
--- | --
-[Add doc comments to WindowsTestContext](https://github.com/flutter/engine/pull/35350)<br /><sub>[`affects: docs`](https://github.com/flutter/engine/labels/affects%3A%20docs), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#35350](https://github.com/flutter/engine/pull/35350) opened on August 11, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [0](https://github.com/flutter/engine/pull/35350)
 
 ## Framework pull requests
 
