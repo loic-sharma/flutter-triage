@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
-* [Framework pull requests](#framework-pull-requests) - 3 open
+* [Framework pull requests](#framework-pull-requests) - 2 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -26,12 +26,11 @@ Name | Comments
 
 ## Framework pull requests
 
-[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Add platform view supports on Linux](https://github.com/flutter/flutter/pull/74814)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: platform-views`](https://github.com/flutter/flutter/labels/a%3A%20platform-views), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#74814](https://github.com/flutter/flutter/pull/74814) opened on January 27, 2021 by [huanghongxun](https://api.github.com/users/huanghongxun)</sub> | 💬 [29](https://github.com/flutter/flutter/pull/74814)
-[Free library even if proc lookup fails](https://github.com/flutter/flutter/pull/108312)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#108312](https://github.com/flutter/flutter/pull/108312) opened on July 25, 2022 by [verath](https://api.github.com/users/verath)</sub> | 💬 [10](https://github.com/flutter/flutter/pull/108312)
 [Add macOS-specific scroll physics](https://github.com/flutter/flutter/pull/108298)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#108298](https://github.com/flutter/flutter/pull/108298) opened on July 25, 2022 by [moffatman](https://api.github.com/users/moffatman)</sub> | 💬 [3](https://github.com/flutter/flutter/pull/108298)
 
 ## Bugs without priorities
