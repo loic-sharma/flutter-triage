@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 14 open
-* [Popular issues](#popular-issues) - 436 open
+* [Popular issues](#popular-issues) - 437 open
 * [Popular features requests](#popular-features-requests) - 79 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -32,10 +32,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[Mac] Add unit tests for AXPlatformNodeMac and AXPlatformNodeCoacoa](https://github.com/flutter/flutter/issues/109629)<br /><sub>[`a: tests`](https://github.com/flutter/flutter/labels/a%3A%20tests), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#109629](https://github.com/flutter/flutter/issues/109629) opened on August 16, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/109629)
 [Add invoke on-screen keyboard on desktop](https://github.com/flutter/flutter/issues/109546)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`engine`](https://github.com/flutter/flutter/labels/engine), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#109546](https://github.com/flutter/flutter/issues/109546) opened on August 15, 2022 by [omatt](https://api.github.com/users/omatt)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/109546)
 [Scrollbar do not handle wheel event when cursor is over the track](https://github.com/flutter/flutter/issues/109519)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#109519](https://github.com/flutter/flutter/issues/109519) opened on August 15, 2022 by [fufesou](https://api.github.com/users/fufesou)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/109519)
 [Allow for customizing the horizontal scroll mechanism on desktop](https://github.com/flutter/flutter/issues/109433)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#109433](https://github.com/flutter/flutter/issues/109433) opened on August 12, 2022 by [feinstein](https://api.github.com/users/feinstein)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/109433)
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[436 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[437 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
