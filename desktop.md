@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
-* [Framework pull requests](#framework-pull-requests) - 2 open
+* [Framework pull requests](#framework-pull-requests) - 3 open
 * [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -23,12 +23,13 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Framework pull requests
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Add platform view supports on Linux](https://github.com/flutter/flutter/pull/74814)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: platform-views`](https://github.com/flutter/flutter/labels/a%3A%20platform-views), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#74814](https://github.com/flutter/flutter/pull/74814) opened on January 27, 2021 by [huanghongxun](https://api.github.com/users/huanghongxun)</sub> | 💬 [29](https://github.com/flutter/flutter/pull/74814)
 [Add macOS-specific scroll physics](https://github.com/flutter/flutter/pull/108298)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#108298](https://github.com/flutter/flutter/pull/108298) opened on July 25, 2022 by [moffatman](https://api.github.com/users/moffatman)</sub> | 💬 [3](https://github.com/flutter/flutter/pull/108298)
+[Add windows implementation to platform_view example](https://github.com/flutter/flutter/pull/109715)<br /><sub>[`a: tests`](https://github.com/flutter/flutter/labels/a%3A%20tests), [`team`](https://github.com/flutter/flutter/labels/team), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#109715](https://github.com/flutter/flutter/pull/109715) opened on August 17, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/pull/109715)
 
 ## Bugs without priorities
 
