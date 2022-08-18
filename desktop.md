@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 6 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
@@ -33,16 +33,13 @@ Name | Comments
 
 ## Bugs without priorities
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[Linux font rendering issue in dialogues](https://github.com/flutter/flutter/issues/109608)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#109608](https://github.com/flutter/flutter/issues/109608) opened on August 16, 2022 by [Feichtmeier](https://api.github.com/users/Feichtmeier)</sub> | 💬 [12](https://github.com/flutter/flutter/issues/109608)
 [Add invoke on-screen keyboard on desktop](https://github.com/flutter/flutter/issues/109546)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`engine`](https://github.com/flutter/flutter/labels/engine), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#109546](https://github.com/flutter/flutter/issues/109546) opened on August 15, 2022 by [omatt](https://api.github.com/users/omatt)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/109546)
 [Scrollbar do not handle wheel event when cursor is over the track](https://github.com/flutter/flutter/issues/109519)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#109519](https://github.com/flutter/flutter/issues/109519) opened on August 15, 2022 by [fufesou](https://api.github.com/users/fufesou)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/109519)
 [Allow for customizing the horizontal scroll mechanism on desktop](https://github.com/flutter/flutter/issues/109433)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#109433](https://github.com/flutter/flutter/issues/109433) opened on August 12, 2022 by [feinstein](https://api.github.com/users/feinstein)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/109433)
-[Running 'Counter' template app in Debug mode on macOS launches 2 instances](https://github.com/flutter/flutter/issues/77231)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage)<br />[#77231](https://github.com/flutter/flutter/issues/77231) opened on March 4, 2021 by [maxim-saplin](https://api.github.com/users/maxim-saplin)</sub> | 💬 [9](https://github.com/flutter/flutter/issues/77231)
-[How to include .so in windows application](https://github.com/flutter/flutter/issues/59515)<br /><sub>[`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage)<br />[#59515](https://github.com/flutter/flutter/issues/59515) opened on June 16, 2020 by [ReniDelonzek](https://api.github.com/users/ReniDelonzek)</sub> | 💬 [13](https://github.com/flutter/flutter/issues/59515)
 
 ## P0 bugs
 
