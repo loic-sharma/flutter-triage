@@ -5,7 +5,7 @@ Triage queries:
 * [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
-* [P2 bugs](#p2-bugs) - 1 open
+* [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 14 open
@@ -53,11 +53,12 @@ Name | Comments
 
 ## P2 bugs
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
 
 Name | Comments
 -- | --
 [Not able to navigate using tab key when using nested Navigators](https://github.com/flutter/flutter/issues/109624)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#109624](https://github.com/flutter/flutter/issues/109624) opened on August 16, 2022 by [eduardoGo](https://api.github.com/users/eduardoGo)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/109624)
+[Screen does not scroll correctly when using an Accessibility Screen Reader](https://github.com/flutter/flutter/issues/104036)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#104036](https://github.com/flutter/flutter/issues/104036) opened on May 18, 2022 by [hamishnorton](https://api.github.com/users/hamishnorton)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/104036)
 
 ## Flakes
 
