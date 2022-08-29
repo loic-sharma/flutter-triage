@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
@@ -10,7 +10,7 @@ Triage queries:
 * [Regressions](#regressions) - 11 open
 * [Crashes](#crashes) - 14 open
 * [Popular issues](#popular-issues) - 441 open
-* [Popular features requests](#popular-features-requests) - 83 open
+* [Popular features requests](#popular-features-requests) - 84 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -33,10 +33,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[Add support Vala for linux ](https://github.com/flutter/flutter/issues/110410)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#110410](https://github.com/flutter/flutter/issues/110410) opened on August 27, 2022 by [listepo](https://api.github.com/users/listepo)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/110410)
 [Buttons don't splash when hovered, turning black for one frame if 'unhovered'.](https://github.com/flutter/flutter/issues/110266)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#110266](https://github.com/flutter/flutter/issues/110266) opened on August 25, 2022 by [Wissperwind](https://api.github.com/users/Wissperwind)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/110266)
 
 ## P0 bugs
@@ -124,7 +125,7 @@ Name | Comments
 
 ## Popular features requests
 
-[83 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[84 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
