@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 11 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 442 open
+* [Popular issues](#popular-issues) - 443 open
 * [Popular features requests](#popular-features-requests) - 86 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -32,13 +32,14 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Platform Channel integration tests don't run for MacOS](https://github.com/flutter/flutter/issues/110608)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#110608](https://github.com/flutter/flutter/issues/110608) opened on August 30, 2022 by [gaaclarke](https://api.github.com/users/gaaclarke)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/110608)
 [OverlayColor not working when Color is set in BoxDecoration](https://github.com/flutter/flutter/issues/110565)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#110565](https://github.com/flutter/flutter/issues/110565) opened on August 30, 2022 by [shaurya-src](https://api.github.com/users/shaurya-src)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/110565)
 [Add support Vala for linux ](https://github.com/flutter/flutter/issues/110410)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#110410](https://github.com/flutter/flutter/issues/110410) opened on August 27, 2022 by [listepo](https://api.github.com/users/listepo)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/110410)
+[[windows] Crash caused by null pointer in ANGLE](https://github.com/flutter/flutter/issues/110311)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`severe: fatal crash`](https://github.com/flutter/flutter/labels/severe%3A%20fatal%20crash), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3)<br />[#110311](https://github.com/flutter/flutter/issues/110311) opened on August 26, 2022 by [0xZOne](https://api.github.com/users/0xZOne)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/110311)
 [Buttons don't splash when hovered, turning black for one frame if 'unhovered'.](https://github.com/flutter/flutter/issues/110266)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#110266](https://github.com/flutter/flutter/issues/110266) opened on August 25, 2022 by [Wissperwind](https://api.github.com/users/Wissperwind)</sub> | 💬 [10](https://github.com/flutter/flutter/issues/110266)
 
 ## P0 bugs
@@ -107,7 +108,7 @@ Name | Comments
 
 ## Popular issues
 
-[442 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[443 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
