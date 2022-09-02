@@ -5,7 +5,7 @@ Triage queries:
 * [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
-* [P2 bugs](#p2-bugs) - 1 open
+* [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 11 open
 * [Crashes](#crashes) - 12 open
@@ -55,11 +55,12 @@ Name | Comments
 
 ## P2 bugs
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
 
 Name | Comments
 -- | --
 [Screen does not scroll correctly when using an Accessibility Screen Reader](https://github.com/flutter/flutter/issues/104036)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: fun (g3)`](https://github.com/flutter/flutter/labels/customer%3A%20fun%20(g3)), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#104036](https://github.com/flutter/flutter/issues/104036) opened on May 18, 2022 by [hamishnorton](https://api.github.com/users/hamishnorton)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/104036)
+[[Windows] System theme integration is broken](https://github.com/flutter/flutter/issues/110700)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#110700](https://github.com/flutter/flutter/issues/110700) opened on August 31, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/110700)
 
 ## Flakes
 
