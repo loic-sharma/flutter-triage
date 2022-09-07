@@ -2,12 +2,12 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 1 open
-* [Regressions](#regressions) - 10 open
+* [Regressions](#regressions) - 11 open
 * [Crashes](#crashes) - 13 open
 * [Popular issues](#popular-issues) - 447 open
 * [Popular features requests](#popular-features-requests) - 87 open
@@ -35,13 +35,12 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Hide right click menu when app loses focus](https://github.com/flutter/flutter/issues/111054)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#111054](https://github.com/flutter/flutter/issues/111054) opened on September 6, 2022 by [justinmc](https://api.github.com/users/justinmc)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/111054)
 [[macOS] Add `platform_view` example for macOS](https://github.com/flutter/flutter/issues/111004)<br /><sub>[`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#111004](https://github.com/flutter/flutter/issues/111004) opened on September 5, 2022 by [a-wallen](https://api.github.com/users/a-wallen)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/111004)
-[[ERROR:flutter/shell/platform/windows/direct_manipulation.cc(137)] CoCreateInstance(CLSID_DirectManipulationManager, nullptr, CLSCTX_INPROC_SERVER, IID_IDirectManipulationManager, &manager_) failed](https://github.com/flutter/flutter/issues/110948)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`e: win32`](https://github.com/flutter/flutter/labels/e%3A%20win32)<br />[#110948](https://github.com/flutter/flutter/issues/110948) opened on September 4, 2022 by [kirill-21](https://api.github.com/users/kirill-21)</sub> | 💬 [13](https://github.com/flutter/flutter/issues/110948)
 [[windows] Multi-engine doesn't work properly](https://github.com/flutter/flutter/issues/110661)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3)<br />[#110661](https://github.com/flutter/flutter/issues/110661) opened on August 31, 2022 by [0xZOne](https://api.github.com/users/0xZOne)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/110661)
 
 ## P0 bugs
@@ -73,7 +72,7 @@ Name | Comments
 
 ## Regressions
 
-[10 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
+[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
 Name | Comments
 -- | --
@@ -87,6 +86,8 @@ Name | Comments
 [`GestureDetector` `onPan` now triggers via trackpad. changed application behaviour](https://github.com/flutter/flutter/issues/107005)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#107005](https://github.com/flutter/flutter/issues/107005) opened on July 2, 2022 by [ltOgt](https://api.github.com/users/ltOgt)</sub> | 💬 [23](https://github.com/flutter/flutter/issues/107005)
 [Buttons don't splash when hovered, turning black for one frame if 'unhovered'.](https://github.com/flutter/flutter/issues/110266)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#110266](https://github.com/flutter/flutter/issues/110266) opened on August 25, 2022 by [Wissperwind](https://api.github.com/users/Wissperwind)</sub> | 💬 [14](https://github.com/flutter/flutter/issues/110266)
 [[Windows] Overlay flickering when the cursor is hovered ](https://github.com/flutter/flutter/issues/107921)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#107921](https://github.com/flutter/flutter/issues/107921) opened on July 19, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [7](https://github.com/flutter/flutter/issues/107921)
+
+[See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22)
 
 ## Crashes
 
