@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 3 open
+* [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
-* [P2 bugs](#p2-bugs) - 2 open
+* [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 10 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 445 open
+* [Popular issues](#popular-issues) - 443 open
 * [Popular features requests](#popular-features-requests) - 87 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -35,13 +35,8 @@ Name | Comments
 
 ## Bugs without priorities
 
-[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Name | Comments
--- | --
-[Hide right click menu when app loses focus](https://github.com/flutter/flutter/issues/111054)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#111054](https://github.com/flutter/flutter/issues/111054) opened on September 6, 2022 by [justinmc](https://api.github.com/users/justinmc)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/111054)
-[[macOS] Add `platform_view` example for macOS](https://github.com/flutter/flutter/issues/111004)<br /><sub>[`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#111004](https://github.com/flutter/flutter/issues/111004) opened on September 5, 2022 by [a-wallen](https://api.github.com/users/a-wallen)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/111004)
-[[windows] Multi-engine doesn't work properly](https://github.com/flutter/flutter/issues/110661)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3)<br />[#110661](https://github.com/flutter/flutter/issues/110661) opened on August 31, 2022 by [0xZOne](https://api.github.com/users/0xZOne)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/110661)
 
 ## P0 bugs
 
@@ -55,12 +50,11 @@ Name | Comments
 
 ## P2 bugs
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
 
 Name | Comments
 -- | --
 [Screen does not scroll correctly when using an Accessibility Screen Reader](https://github.com/flutter/flutter/issues/104036)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: fun (g3)`](https://github.com/flutter/flutter/labels/customer%3A%20fun%20(g3)), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#104036](https://github.com/flutter/flutter/issues/104036) opened on May 18, 2022 by [hamishnorton](https://api.github.com/users/hamishnorton)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/104036)
-[[Windows] System theme integration is broken](https://github.com/flutter/flutter/issues/110700)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#110700](https://github.com/flutter/flutter/issues/110700) opened on August 31, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/110700)
 
 ## Flakes
 
@@ -108,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[445 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[443 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
