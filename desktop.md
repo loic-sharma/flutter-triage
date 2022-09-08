@@ -7,9 +7,9 @@ Triage queries:
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 1 open
-* [Regressions](#regressions) - 11 open
+* [Regressions](#regressions) - 10 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 446 open
+* [Popular issues](#popular-issues) - 445 open
 * [Popular features requests](#popular-features-requests) - 87 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -72,7 +72,7 @@ Name | Comments
 
 ## Regressions
 
-[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
+[10 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
 Name | Comments
 -- | --
@@ -84,10 +84,8 @@ Name | Comments
 [Background color on desktop is not black](https://github.com/flutter/flutter/issues/76082)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76082](https://github.com/flutter/flutter/issues/76082) opened on February 15, 2021 by [Hixie](https://api.github.com/users/Hixie)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/76082)
 [[Desktop-Windows]Chinese characters are incorrectly rendered in flutter 3](https://github.com/flutter/flutter/issues/103811)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#103811](https://github.com/flutter/flutter/issues/103811) opened on May 14, 2022 by [Kamihimmel](https://api.github.com/users/Kamihimmel)</sub> | 💬 [31](https://github.com/flutter/flutter/issues/103811)
 [`GestureDetector` `onPan` now triggers via trackpad. changed application behaviour](https://github.com/flutter/flutter/issues/107005)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#107005](https://github.com/flutter/flutter/issues/107005) opened on July 2, 2022 by [ltOgt](https://api.github.com/users/ltOgt)</sub> | 💬 [23](https://github.com/flutter/flutter/issues/107005)
-[Buttons don't splash when hovered, turning black for one frame if 'unhovered'.](https://github.com/flutter/flutter/issues/110266)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#110266](https://github.com/flutter/flutter/issues/110266) opened on August 25, 2022 by [Wissperwind](https://api.github.com/users/Wissperwind)</sub> | 💬 [14](https://github.com/flutter/flutter/issues/110266)
 [[Windows] Overlay flickering when the cursor is hovered ](https://github.com/flutter/flutter/issues/107921)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#107921](https://github.com/flutter/flutter/issues/107921) opened on July 19, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [7](https://github.com/flutter/flutter/issues/107921)
-
-[See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22)
+[[ERROR:flutter/shell/platform/windows/direct_manipulation.cc(137)] CoCreateInstance(CLSID_DirectManipulationManager, nullptr, CLSCTX_INPROC_SERVER, IID_IDirectManipulationManager, &manager_) failed](https://github.com/flutter/flutter/issues/110948)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P4`](https://github.com/flutter/flutter/labels/P4), [`e: win32`](https://github.com/flutter/flutter/labels/e%3A%20win32)<br />[#110948](https://github.com/flutter/flutter/issues/110948) opened on September 4, 2022 by [kirill-21](https://api.github.com/users/kirill-21)</sub> | 💬 [14](https://github.com/flutter/flutter/issues/110948)
 
 ## Crashes
 
@@ -110,7 +108,7 @@ Name | Comments
 
 ## Popular issues
 
-[446 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[445 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
