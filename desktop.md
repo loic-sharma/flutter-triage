@@ -39,7 +39,7 @@ Name | Comments
 
 Name | Comments
 -- | --
-[[Windows] Unhandled Exception: Failed host lookup](https://github.com/flutter/flutter/issues/111162)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build), [`a: release`](https://github.com/flutter/flutter/labels/a%3A%20release), [`needs repro info`](https://github.com/flutter/flutter/labels/needs%20repro%20info)<br />[#111162](https://github.com/flutter/flutter/issues/111162) opened on September 8, 2022 by [enoiu](https://api.github.com/users/enoiu)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/111162)
+[[Windows] Unhandled Exception: Failed host lookup](https://github.com/flutter/flutter/issues/111162)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build), [`a: release`](https://github.com/flutter/flutter/labels/a%3A%20release), [`needs repro info`](https://github.com/flutter/flutter/labels/needs%20repro%20info)<br />[#111162](https://github.com/flutter/flutter/issues/111162) opened on September 8, 2022 by [enoiu](https://api.github.com/users/enoiu)</sub> | 💬 [9](https://github.com/flutter/flutter/issues/111162)
 
 ## P0 bugs
 
