@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
-* [Framework pull requests](#framework-pull-requests) - 2 open
+* [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -9,7 +9,7 @@ Triage queries:
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 10 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 432 open
+* [Popular issues](#popular-issues) - 431 open
 * [Popular features requests](#popular-features-requests) - 87 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -26,12 +26,11 @@ Name | Comments
 
 ## Framework pull requests
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Avoid null terminating characters in strings from Utf8FromUtf16()](https://github.com/flutter/flutter/pull/109729)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`tool`](https://github.com/flutter/flutter/labels/tool), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#109729](https://github.com/flutter/flutter/pull/109729) opened on August 17, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [5](https://github.com/flutter/flutter/pull/109729)
-[Add macOS-specific scroll physics](https://github.com/flutter/flutter/pull/108298)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#108298](https://github.com/flutter/flutter/pull/108298) opened on July 25, 2022 by [moffatman](https://api.github.com/users/moffatman)</sub> | 💬 [3](https://github.com/flutter/flutter/pull/108298)
 
 ## Bugs without priorities
 
@@ -105,7 +104,7 @@ Name | Comments
 
 ## Popular issues
 
-[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
