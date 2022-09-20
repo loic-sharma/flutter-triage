@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 10 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 430 open
+* [Popular issues](#popular-issues) - 431 open
 * [Popular features requests](#popular-features-requests) - 87 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,10 +34,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[PointerRemovedEvent is never triggered for mouse or stylus leaving the screen/hover range](https://github.com/flutter/flutter/issues/111834)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.4`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.4)<br />[#111834](https://github.com/flutter/flutter/issues/111834) opened on September 18, 2022 by [Dev-Owl](https://api.github.com/users/Dev-Owl)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/111834)
 [[CP] Cherry pick did not make it into the stable release](https://github.com/flutter/flutter/issues/111808)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3)<br />[#111808](https://github.com/flutter/flutter/issues/111808) opened on September 17, 2022 by [cbenhagen](https://api.github.com/users/cbenhagen)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/111808)
 
 ## P0 bugs
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
