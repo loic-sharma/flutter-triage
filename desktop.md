@@ -5,11 +5,11 @@ Triage queries:
 * [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
-* [P2 bugs](#p2-bugs) - 0 open
+* [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 10 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 431 open
+* [Popular issues](#popular-issues) - 432 open
 * [Popular features requests](#popular-features-requests) - 87 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -53,8 +53,11 @@ Name | Comments
 
 ## P2 bugs
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
 
+Name | Comments
+-- | --
+[[Windows][a11y] Pressing the TAB is not moving the focusing and reading the Text Widget](https://github.com/flutter/flutter/issues/109804)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#109804](https://github.com/flutter/flutter/issues/109804) opened on August 18, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/109804)
 
 ## Flakes
 
@@ -102,7 +105,7 @@ Name | Comments
 
 ## Popular issues
 
-[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
