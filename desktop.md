@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 1 open
+* [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,11 +18,8 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[1 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[0 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
-Name | Comments
--- | --
-[[macos] expose runWithEngine constructor in FlutterViewController (#7…](https://github.com/flutter/engine/pull/35869)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#35869](https://github.com/flutter/engine/pull/35869) opened on September 1, 2022 by [dubik](https://api.github.com/users/dubik)</sub> | 💬 [7](https://github.com/flutter/engine/pull/35869)
 
 ## Framework pull requests
 
