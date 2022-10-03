@@ -22,7 +22,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 Name | Comments
 -- | --
-[Get user's preferred languages from registry](https://github.com/flutter/engine/pull/36536)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36536](https://github.com/flutter/engine/pull/36536) opened on September 30, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [3](https://github.com/flutter/engine/pull/36536)
+[Get user's preferred languages from registry](https://github.com/flutter/engine/pull/36536)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#36536](https://github.com/flutter/engine/pull/36536) opened on September 30, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [5](https://github.com/flutter/engine/pull/36536)
 
 ## Framework pull requests
 
