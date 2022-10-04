@@ -5,11 +5,11 @@ Triage queries:
 * [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
-* [P2 bugs](#p2-bugs) - 1 open
+* [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 430 open
+* [Popular issues](#popular-issues) - 431 open
 * [Popular features requests](#popular-features-requests) - 89 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -53,11 +53,12 @@ Name | Comments
 
 ## P2 bugs
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
 
 Name | Comments
 -- | --
 [[Windows][a11y] Pressing the TAB is not moving the focusing and reading the Text Widget](https://github.com/flutter/flutter/issues/109804)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#109804](https://github.com/flutter/flutter/issues/109804) opened on August 18, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/109804)
+[Accessibility issues with Flutter Desktop](https://github.com/flutter/flutter/issues/112876)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#112876](https://github.com/flutter/flutter/issues/112876) opened on October 4, 2022 by [bourdakos1](https://api.github.com/users/bourdakos1)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/112876)
 
 ## Flakes
 
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
