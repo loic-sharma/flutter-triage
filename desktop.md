@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 431 open
+* [Popular issues](#popular-issues) - 432 open
 * [Popular features requests](#popular-features-requests) - 89 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,10 +34,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[Mac] - Scrolling momentum has disappeared from Listener scroll signal](https://github.com/flutter/flutter/issues/112880)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3)<br />[#112880](https://github.com/flutter/flutter/issues/112880) opened on October 4, 2022 by [matthew-carroll](https://api.github.com/users/matthew-carroll)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/112880)
 [path_provider get common app path for desktop](https://github.com/flutter/flutter/issues/112792)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`plugin`](https://github.com/flutter/flutter/labels/plugin), [`p: first party`](https://github.com/flutter/flutter/labels/p%3A%20first%20party), [`p: path_provider`](https://github.com/flutter/flutter/labels/p%3A%20path_provider), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#112792](https://github.com/flutter/flutter/issues/112792) opened on October 3, 2022 by [jibbers42](https://api.github.com/users/jibbers42)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/112792)
 [Default app locales should derive from "Preferred Languages" on Windows](https://github.com/flutter/flutter/issues/112717)<br /><sub>[`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#112717](https://github.com/flutter/flutter/issues/112717) opened on September 30, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/112717)
 
@@ -102,7 +103,7 @@ Name | Comments
 
 ## Popular issues
 
-[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
