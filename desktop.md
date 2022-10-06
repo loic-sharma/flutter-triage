@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 0 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 429 open
+* [Popular issues](#popular-issues) - 430 open
 * [Popular features requests](#popular-features-requests) - 90 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -31,8 +31,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
+Name | Comments
+-- | --
+[Semantics announcement not read on Desktop](https://github.com/flutter/flutter/issues/113059)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113059](https://github.com/flutter/flutter/issues/113059) opened on October 6, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/113059)
 
 ## P0 bugs
 
@@ -51,7 +54,7 @@ Name | Comments
 Name | Comments
 -- | --
 [[Windows][a11y] Pressing the "down arrow" does not move the focus and read the Text Widget](https://github.com/flutter/flutter/issues/109804)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#109804](https://github.com/flutter/flutter/issues/109804) opened on August 18, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/109804)
-[Accessibility issues with Flutter Desktop](https://github.com/flutter/flutter/issues/112876)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#112876](https://github.com/flutter/flutter/issues/112876) opened on October 4, 2022 by [bourdakos1](https://api.github.com/users/bourdakos1)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/112876)
+[Tooltip not read by screen reader on Windows Desktop](https://github.com/flutter/flutter/issues/112876)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#112876](https://github.com/flutter/flutter/issues/112876) opened on October 4, 2022 by [bourdakos1](https://api.github.com/users/bourdakos1)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/112876)
 
 ## Flakes
 
@@ -94,7 +97,7 @@ Name | Comments
 
 ## Popular issues
 
-[429 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
