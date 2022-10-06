@@ -35,7 +35,7 @@ Name | Comments
 
 Name | Comments
 -- | --
-[Semantics announcement not read on Desktop](https://github.com/flutter/flutter/issues/113059)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113059](https://github.com/flutter/flutter/issues/113059) opened on October 6, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/113059)
+[Semantics announcement not read on Desktop](https://github.com/flutter/flutter/issues/113059)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113059](https://github.com/flutter/flutter/issues/113059) opened on October 6, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113059)
 
 ## P0 bugs
 
