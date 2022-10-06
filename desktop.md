@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 3 open
+* [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 0 open
-* [Regressions](#regressions) - 10 open
+* [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 431 open
+* [Popular issues](#popular-issues) - 430 open
 * [Popular features requests](#popular-features-requests) - 90 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -31,13 +31,8 @@ Name | Comments
 
 ## Bugs without priorities
 
-[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Name | Comments
--- | --
-[[macOS]: canvas shakes on repaint on latest beta](https://github.com/flutter/flutter/issues/112907)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.4`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.4)<br />[#112907](https://github.com/flutter/flutter/issues/112907) opened on October 5, 2022 by [likang](https://api.github.com/users/likang)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/112907)
-[[Mac] - Scrolling momentum has disappeared from Listener scroll signal](https://github.com/flutter/flutter/issues/112880)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3)<br />[#112880](https://github.com/flutter/flutter/issues/112880) opened on October 4, 2022 by [matthew-carroll](https://api.github.com/users/matthew-carroll)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/112880)
-[path_provider get common app path for desktop](https://github.com/flutter/flutter/issues/112792)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`plugin`](https://github.com/flutter/flutter/labels/plugin), [`p: first party`](https://github.com/flutter/flutter/labels/p%3A%20first%20party), [`p: path_provider`](https://github.com/flutter/flutter/labels/p%3A%20path_provider), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#112792](https://github.com/flutter/flutter/issues/112792) opened on October 3, 2022 by [jibbers42](https://api.github.com/users/jibbers42)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/112792)
 
 ## P0 bugs
 
@@ -55,8 +50,8 @@ Name | Comments
 
 Name | Comments
 -- | --
-[[Windows][a11y] Pressing Tab does not move the focus and read the Text Widget](https://github.com/flutter/flutter/issues/109804)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#109804](https://github.com/flutter/flutter/issues/109804) opened on August 18, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/109804)
 [Accessibility issues with Flutter Desktop](https://github.com/flutter/flutter/issues/112876)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#112876](https://github.com/flutter/flutter/issues/112876) opened on October 4, 2022 by [bourdakos1](https://api.github.com/users/bourdakos1)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/112876)
+[[Windows][a11y] Pressing the "down arrow" does not move the focus and read the Text Widget](https://github.com/flutter/flutter/issues/109804)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#109804](https://github.com/flutter/flutter/issues/109804) opened on August 18, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/109804)
 
 ## Flakes
 
@@ -65,7 +60,7 @@ Name | Comments
 
 ## Regressions
 
-[10 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
+[9 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
 Name | Comments
 -- | --
@@ -77,7 +72,6 @@ Name | Comments
 [[Windows] Overlay flickering when the cursor is hovered ](https://github.com/flutter/flutter/issues/107921)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#107921](https://github.com/flutter/flutter/issues/107921) opened on July 19, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/107921)
 [[Desktop-Windows]Chinese characters are incorrectly rendered in flutter 3](https://github.com/flutter/flutter/issues/103811)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#103811](https://github.com/flutter/flutter/issues/103811) opened on May 14, 2022 by [Kamihimmel](https://api.github.com/users/Kamihimmel)</sub> | 💬 [32](https://github.com/flutter/flutter/issues/103811)
 [Background color on desktop is not black](https://github.com/flutter/flutter/issues/76082)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76082](https://github.com/flutter/flutter/issues/76082) opened on February 15, 2021 by [Hixie](https://api.github.com/users/Hixie)</sub> | 💬 [13](https://github.com/flutter/flutter/issues/76082)
-[[macOS]: canvas shakes on repaint on latest beta](https://github.com/flutter/flutter/issues/112907)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.4`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.4)<br />[#112907](https://github.com/flutter/flutter/issues/112907) opened on October 5, 2022 by [likang](https://api.github.com/users/likang)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/112907)
 [[ERROR:flutter/shell/platform/windows/direct_manipulation.cc(137)] CoCreateInstance(CLSID_DirectManipulationManager, nullptr, CLSCTX_INPROC_SERVER, IID_IDirectManipulationManager, &manager_) failed](https://github.com/flutter/flutter/issues/110948)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P3`](https://github.com/flutter/flutter/labels/P3)<br />[#110948](https://github.com/flutter/flutter/issues/110948) opened on September 4, 2022 by [kirill-21](https://api.github.com/users/kirill-21)</sub> | 💬 [24](https://github.com/flutter/flutter/issues/110948)
 
 ## Crashes
@@ -101,7 +95,7 @@ Name | Comments
 
 ## Popular issues
 
-[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
