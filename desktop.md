@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 430 open
+* [Popular issues](#popular-issues) - 431 open
 * [Popular features requests](#popular-features-requests) - 91 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -31,11 +31,12 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Semantics announcement not read on Desktop](https://github.com/flutter/flutter/issues/113059)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113059](https://github.com/flutter/flutter/issues/113059) opened on October 6, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113059)
+[[Mac] - Tap to focus the window also applies a tap event](https://github.com/flutter/flutter/issues/112882)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus)<br />[#112882](https://github.com/flutter/flutter/issues/112882) opened on October 4, 2022 by [matthew-carroll](https://api.github.com/users/matthew-carroll)</sub> | 💬 [9](https://github.com/flutter/flutter/issues/112882)
 
 ## P0 bugs
 
@@ -97,7 +98,7 @@ Name | Comments
 
 ## Popular issues
 
-[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
