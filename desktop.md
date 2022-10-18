@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 5 open
+* [Bugs without priorities](#bugs-without-priorities) - 6 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 2 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 431 open
+* [Popular issues](#popular-issues) - 432 open
 * [Popular features requests](#popular-features-requests) - 92 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -31,10 +31,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[Desktop] TextField receiving newline on TextInputAction.next](https://github.com/flutter/flutter/issues/113559)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.5`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.5)<br />[#113559](https://github.com/flutter/flutter/issues/113559) opened on October 17, 2022 by [PauloZung](https://api.github.com/users/PauloZung)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113559)
 [`Slider` thumb overlay doesn't behave properly on desktop](https://github.com/flutter/flutter/issues/113367)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.4`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.4)<br />[#113367](https://github.com/flutter/flutter/issues/113367) opened on October 13, 2022 by [TahaTesser](https://api.github.com/users/TahaTesser)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113367)
 ['NSInternalInconsistencyException', reason: 'NSWindow drag regions should only be invalidated on the Main Thread!'](https://github.com/flutter/flutter/issues/113099)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`p: third party`](https://github.com/flutter/flutter/labels/p%3A%20third%20party)<br />[#113099](https://github.com/flutter/flutter/issues/113099) opened on October 7, 2022 by [0xchase](https://api.github.com/users/0xchase)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/113099)
 [Semantics announcement not read on Desktop](https://github.com/flutter/flutter/issues/113059)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113059](https://github.com/flutter/flutter/issues/113059) opened on October 6, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/113059)
@@ -100,7 +101,7 @@ Name | Comments
 
 ## Popular issues
 
-[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
