@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 7 open
+* [Bugs without priorities](#bugs-without-priorities) - 8 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
@@ -10,7 +10,7 @@ Triage queries:
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 11 open
 * [Popular issues](#popular-issues) - 434 open
-* [Popular features requests](#popular-features-requests) - 92 open
+* [Popular features requests](#popular-features-requests) - 93 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -31,10 +31,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[7 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[8 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[proposal] Provide GUI for flutter_tools](https://github.com/flutter/flutter/issues/113739)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`tool`](https://github.com/flutter/flutter/labels/tool), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113739](https://github.com/flutter/flutter/issues/113739) opened on October 20, 2022 by [AlexV525](https://api.github.com/users/AlexV525)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/113739)
 [Improper keyboard behavior of radio buttons](https://github.com/flutter/flutter/issues/113562)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.5`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.5)<br />[#113562](https://github.com/flutter/flutter/issues/113562) opened on October 17, 2022 by [bourdakos1](https://api.github.com/users/bourdakos1)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113562)
 [[Desktop] TextField receiving newline on TextInputAction.next](https://github.com/flutter/flutter/issues/113559)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.5`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.5)<br />[#113559](https://github.com/flutter/flutter/issues/113559) opened on October 17, 2022 by [PauloZung](https://api.github.com/users/PauloZung)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113559)
 [`Slider` thumb overlay doesn't behave properly on desktop](https://github.com/flutter/flutter/issues/113367)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.4`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.4)<br />[#113367](https://github.com/flutter/flutter/issues/113367) opened on October 13, 2022 by [TahaTesser](https://api.github.com/users/TahaTesser)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113367)
@@ -120,7 +121,7 @@ Name | Comments
 
 ## Popular features requests
 
-[92 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[93 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
