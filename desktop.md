@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 5 open
+* [Bugs without priorities](#bugs-without-priorities) - 4 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
@@ -31,11 +31,10 @@ Name | Comments
 
 ## Bugs without priorities
 
-[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[[proposal] Provide GUI for flutter_tools](https://github.com/flutter/flutter/issues/113739)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`waiting for customer response`](https://github.com/flutter/flutter/labels/waiting%20for%20customer%20response), [`tool`](https://github.com/flutter/flutter/labels/tool), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113739](https://github.com/flutter/flutter/issues/113739) opened on October 20, 2022 by [AlexV525](https://api.github.com/users/AlexV525)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/113739)
 ['NSInternalInconsistencyException', reason: 'NSWindow drag regions should only be invalidated on the Main Thread!'](https://github.com/flutter/flutter/issues/113099)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`p: third party`](https://github.com/flutter/flutter/labels/p%3A%20third%20party)<br />[#113099](https://github.com/flutter/flutter/issues/113099) opened on October 7, 2022 by [0xchase](https://api.github.com/users/0xchase)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/113099)
 [Semantics announcement not read on Desktop](https://github.com/flutter/flutter/issues/113059)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113059](https://github.com/flutter/flutter/issues/113059) opened on October 6, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/113059)
 [TextField accessibility on Linux](https://github.com/flutter/flutter/issues/113049)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.5`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.5)<br />[#113049](https://github.com/flutter/flutter/issues/113049) opened on October 6, 2022 by [RastislavKish](https://api.github.com/users/RastislavKish)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113049)
