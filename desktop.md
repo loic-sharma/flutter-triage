@@ -22,7 +22,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 Name | Comments
 -- | --
-[Announce alerts through SemanticsService on Windows](https://github.com/flutter/engine/pull/36966)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36966](https://github.com/flutter/engine/pull/36966) opened on October 24, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/36966)
+[Announce alerts through SemanticsService on Windows](https://github.com/flutter/engine/pull/36966)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36966](https://github.com/flutter/engine/pull/36966) opened on October 24, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [1](https://github.com/flutter/engine/pull/36966)
 
 ## Framework pull requests
 
