@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 432 open
+* [Popular issues](#popular-issues) - 433 open
 * [Popular features requests](#popular-features-requests) - 94 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -31,10 +31,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[License list position has bug in RTL lateral LicensePage](https://github.com/flutter/flutter/issues/113916)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.5`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.5)<br />[#113916](https://github.com/flutter/flutter/issues/113916) opened on October 23, 2022 by [Pourqavam](https://api.github.com/users/Pourqavam)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113916)
 [[macOS] Rendering an empty scene after a scene with content does not clear old content.](https://github.com/flutter/flutter/issues/113785)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.5`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.5)<br />[#113785](https://github.com/flutter/flutter/issues/113785) opened on October 20, 2022 by [a-wallen](https://api.github.com/users/a-wallen)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/113785)
 [Does not run on linux - libGL error: failed to load driver: virtio_gpu](https://github.com/flutter/flutter/issues/113733)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113733](https://github.com/flutter/flutter/issues/113733) opened on October 20, 2022 by [1056824847](https://api.github.com/users/1056824847)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/113733)
 
@@ -96,7 +97,7 @@ Name | Comments
 
 ## Popular issues
 
-[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[433 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
