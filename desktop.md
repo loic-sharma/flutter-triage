@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
-* [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 432 open
+* [Crashes](#crashes) - 13 open
+* [Popular issues](#popular-issues) - 433 open
 * [Popular features requests](#popular-features-requests) - 93 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,11 +34,12 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [[Windows] Improve Switch widget accessibility](https://github.com/flutter/flutter/issues/114381)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#114381](https://github.com/flutter/flutter/issues/114381) opened on November 1, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/114381)
+[[Windows][Desktop]: Unable to delete/backspace/Ctrl+A  text in TextField widget after switching to Burmese(Myanmar) keyboard input](https://github.com/flutter/flutter/issues/114223)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`waiting for customer response`](https://github.com/flutter/flutter/labels/waiting%20for%20customer%20response), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#114223](https://github.com/flutter/flutter/issues/114223) opened on October 28, 2022 by [yarzaryeni](https://api.github.com/users/yarzaryeni)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/114223)
 [[MacOS] Hiden child widget of IndexedStack can be focused when using Tab shortcut key.](https://github.com/flutter/flutter/issues/114213)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.4`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.4)<br />[#114213](https://github.com/flutter/flutter/issues/114213) opened on October 28, 2022 by [MegatronKing](https://api.github.com/users/MegatronKing)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/114213)
 
 ## P0 bugs
@@ -80,7 +81,7 @@ Name | Comments
 
 ## Crashes
 
-[12 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[13 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -99,7 +100,7 @@ Name | Comments
 
 ## Popular issues
 
-[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[433 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
