@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
-* [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 433 open
+* [Crashes](#crashes) - 14 open
+* [Popular issues](#popular-issues) - 434 open
 * [Popular features requests](#popular-features-requests) - 93 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,10 +34,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[Material] Switch widget crashes on desktop due to cast error on gesture](https://github.com/flutter/flutter/issues/114542)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#114542](https://github.com/flutter/flutter/issues/114542) opened on November 2, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/114542)
 [☂️ Raise minimum macOS version from 10.13 to 10.14 for Flutter Desktop apps](https://github.com/flutter/flutter/issues/114445)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#114445](https://github.com/flutter/flutter/issues/114445) opened on November 1, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/114445)
 [[Windows] Improve Switch widget accessibility](https://github.com/flutter/flutter/issues/114381)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#114381](https://github.com/flutter/flutter/issues/114381) opened on November 1, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/114381)
 [[Windows][Desktop]: Unable to delete/backspace/Ctrl+A  text in TextField widget after switching to Burmese(Myanmar) keyboard input](https://github.com/flutter/flutter/issues/114223)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`waiting for customer response`](https://github.com/flutter/flutter/labels/waiting%20for%20customer%20response), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#114223](https://github.com/flutter/flutter/issues/114223) opened on October 28, 2022 by [yarzaryeni](https://api.github.com/users/yarzaryeni)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/114223)
@@ -81,7 +82,7 @@ Name | Comments
 
 ## Crashes
 
-[13 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[14 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -100,7 +101,7 @@ Name | Comments
 
 ## Popular issues
 
-[433 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[434 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
