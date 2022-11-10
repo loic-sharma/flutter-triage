@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
@@ -32,11 +32,10 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[[macOS] Enabling "Reduce transparency" makes buttons unclickable](https://github.com/flutter/flutter/issues/115015)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#115015](https://github.com/flutter/flutter/issues/115015) opened on November 9, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/115015)
 [[Linux] Support semantics custom actions](https://github.com/flutter/flutter/issues/114649)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#114649](https://github.com/flutter/flutter/issues/114649) opened on November 4, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/114649)
 
 ## P0 bugs
