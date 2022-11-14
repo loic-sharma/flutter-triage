@@ -36,7 +36,7 @@ Name | Comments
 
 Name | Comments
 -- | --
-[Add Inno Setup installation steps to complete Flutter windows documentation](https://github.com/flutter/flutter/issues/115262)<br /><sub>[`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#115262](https://github.com/flutter/flutter/issues/115262) opened on November 14, 2022 by [SamiaAshraff](https://api.github.com/users/SamiaAshraff)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/115262)
+[Add Inno Setup installation steps to complete Flutter windows documentation](https://github.com/flutter/flutter/issues/115262)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#115262](https://github.com/flutter/flutter/issues/115262) opened on November 14, 2022 by [SamiaAshraff](https://api.github.com/users/SamiaAshraff)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/115262)
 
 ## P0 bugs
 
