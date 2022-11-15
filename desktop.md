@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
@@ -32,11 +32,10 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[linux cmake does not report names of missing packages](https://github.com/flutter/flutter/issues/115378)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build)<br />[#115378](https://github.com/flutter/flutter/issues/115378) opened on November 15, 2022 by [gaaclarke](https://api.github.com/users/gaaclarke)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/115378)
 [Add Inno Setup installation steps to complete Flutter windows documentation](https://github.com/flutter/flutter/issues/115262)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#115262](https://github.com/flutter/flutter/issues/115262) opened on November 14, 2022 by [SamiaAshraff](https://api.github.com/users/SamiaAshraff)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/115262)
 
 ## P0 bugs
