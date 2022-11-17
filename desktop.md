@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 0 open
-* [Framework pull requests](#framework-pull-requests) - 2 open
+* [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -23,12 +23,11 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Framework pull requests
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Avoid null terminating characters in strings from Utf8FromUtf16()](https://github.com/flutter/flutter/pull/109729)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`tool`](https://github.com/flutter/flutter/labels/tool), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#109729](https://github.com/flutter/flutter/pull/109729) opened on August 17, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [7](https://github.com/flutter/flutter/pull/109729)
-[Add option to build app for Windows on Arm](https://github.com/flutter/flutter/pull/113928)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#113928](https://github.com/flutter/flutter/pull/113928) opened on October 24, 2022 by [pbo-linaro](https://api.github.com/users/pbo-linaro)</sub> | 💬 [12](https://github.com/flutter/flutter/pull/113928)
 
 ## Bugs without priorities
 
