@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 2 open
+* [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,12 +18,13 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[2 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[3 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Preliminary implementation of UIA for A11y on Windows](https://github.com/flutter/engine/pull/37754)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#37754](https://github.com/flutter/engine/pull/37754) opened on November 18, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/37754)
 [[macOS] Refactor rendering infrastructure](https://github.com/flutter/engine/pull/37789)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37789](https://github.com/flutter/engine/pull/37789) opened on November 20, 2022 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [2](https://github.com/flutter/engine/pull/37789)
+[[Windows] Refactor `PlatformHandler`'s tests](https://github.com/flutter/engine/pull/37820)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#37820](https://github.com/flutter/engine/pull/37820) opened on November 21, 2022 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/engine/pull/37820)
 
 ## Framework pull requests
 
