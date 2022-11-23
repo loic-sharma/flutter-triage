@@ -8,8 +8,8 @@ Triage queries:
 * [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
-* [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 430 open
+* [Crashes](#crashes) - 11 open
+* [Popular issues](#popular-issues) - 429 open
 * [Popular features requests](#popular-features-requests) - 94 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -81,7 +81,7 @@ Name | Comments
 
 ## Crashes
 
-[12 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -94,13 +94,13 @@ Name | Comments
 [`Check failed: gl_version_string. The GL proc resolver's glGetString(GL_VERSION) failed` on Linux with Nvidia Graphics Card](https://github.com/flutter/flutter/issues/85460)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`e: device-specific`](https://github.com/flutter/flutter/labels/e%3A%20device-specific), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#85460](https://github.com/flutter/flutter/issues/85460) opened on June 28, 2021 by [erayerdin](https://api.github.com/users/erayerdin)</sub> | 💬 [12](https://github.com/flutter/flutter/issues/85460)
 [App fails to locate swrast_dri.so under flutter run, but runs when invoked directly on Linux](https://github.com/flutter/flutter/issues/76178)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76178](https://github.com/flutter/flutter/issues/76178) opened on February 17, 2021 by [Milvintsiss](https://api.github.com/users/Milvintsiss)</sub> | 💬 [46](https://github.com/flutter/flutter/issues/76178)
 [[macOS] App crashes when debugging and resuming focus on idle app.](https://github.com/flutter/flutter/issues/103268)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`dependency: dart`](https://github.com/flutter/flutter/labels/dependency%3A%20dart), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#103268](https://github.com/flutter/flutter/issues/103268) opened on May 7, 2022 by [CEOSiyris](https://api.github.com/users/CEOSiyris)</sub> | 💬 [11](https://github.com/flutter/flutter/issues/103268)
-[[Windows][Desktop]: Unable to delete/backspace/Ctrl+A  text in TextField widget after switching to Burmese(Myanmar) keyboard input](https://github.com/flutter/flutter/issues/114223)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`waiting for customer response`](https://github.com/flutter/flutter/labels/waiting%20for%20customer%20response), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#114223](https://github.com/flutter/flutter/issues/114223) opened on October 28, 2022 by [yarzaryeni](https://api.github.com/users/yarzaryeni)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/114223)
+[DeltaTextInputClient has different behavior between macOS and Linux](https://github.com/flutter/flutter/issues/113909)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P3`](https://github.com/flutter/flutter/labels/P3), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#113909](https://github.com/flutter/flutter/issues/113909) opened on October 23, 2022 by [LucasXu0](https://api.github.com/users/LucasXu0)</sub> | 💬 [16](https://github.com/flutter/flutter/issues/113909)
 
 [See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22)
 
 ## Popular issues
 
-[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[429 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
