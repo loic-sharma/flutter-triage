@@ -22,8 +22,8 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 Name | Comments
 -- | --
-[[macOS] Refactor rendering infrastructure](https://github.com/flutter/engine/pull/37789)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37789](https://github.com/flutter/engine/pull/37789) opened on November 20, 2022 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [2](https://github.com/flutter/engine/pull/37789)
 [Preliminary implementation of UIA for A11y on Windows](https://github.com/flutter/engine/pull/37754)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#37754](https://github.com/flutter/engine/pull/37754) opened on November 18, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/37754)
+[[macOS] Refactor rendering infrastructure](https://github.com/flutter/engine/pull/37789)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37789](https://github.com/flutter/engine/pull/37789) opened on November 20, 2022 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [2](https://github.com/flutter/engine/pull/37789)
 
 ## Framework pull requests
 
