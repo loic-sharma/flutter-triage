@@ -5,7 +5,7 @@ Triage queries:
 * [Bugs without priorities](#bugs-without-priorities) - 6 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
-* [P2 bugs](#p2-bugs) - 1 open
+* [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
 * [Crashes](#crashes) - 11 open
@@ -59,11 +59,8 @@ Name | Comments
 
 ## P2 bugs
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
 
-Name | Comments
--- | --
-[[Windows][a11y] Pressing the "down arrow" does not move the focus and read the Text Widget](https://github.com/flutter/flutter/issues/109804)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P2`](https://github.com/flutter/flutter/labels/P2)<br />[#109804](https://github.com/flutter/flutter/issues/109804) opened on August 18, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [10](https://github.com/flutter/flutter/issues/109804)
 
 ## Flakes
 
