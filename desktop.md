@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 6 open
+* [Bugs without priorities](#bugs-without-priorities) - 7 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 430 open
+* [Popular issues](#popular-issues) - 431 open
 * [Popular features requests](#popular-features-requests) - 95 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -36,10 +36,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[7 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[When the width of Row's children is not equal, children will be shrunk when there is still space.](https://github.com/flutter/flutter/issues/116264)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#116264](https://github.com/flutter/flutter/issues/116264) opened on November 30, 2022 by [21pages](https://api.github.com/users/21pages)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/116264)
 [Store alert node in `AXFragmentRootWin` and raise UIA alert events on announcement](https://github.com/flutter/flutter/issues/116220)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116220](https://github.com/flutter/flutter/issues/116220) opened on November 29, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/116220)
 [Implement `ITextProvider` and `ITextRangeProvider` for UIA interface.](https://github.com/flutter/flutter/issues/116219)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116219](https://github.com/flutter/flutter/issues/116219) opened on November 29, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/116219)
 [[macOS] Scroll overdrag should return back faster](https://github.com/flutter/flutter/issues/115791)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#115791](https://github.com/flutter/flutter/issues/115791) opened on November 21, 2022 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/115791)
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
