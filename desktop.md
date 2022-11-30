@@ -8,8 +8,8 @@ Triage queries:
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
-* [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 431 open
+* [Crashes](#crashes) - 10 open
+* [Popular issues](#popular-issues) - 430 open
 * [Popular features requests](#popular-features-requests) - 95 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -83,7 +83,7 @@ Name | Comments
 
 ## Crashes
 
-[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[10 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -98,11 +98,9 @@ Name | Comments
 [Image painting causes Linux Nouveau driver errors that crashes the app and sometimes display server](https://github.com/flutter/flutter/issues/94869)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`e: OS Version specific`](https://github.com/flutter/flutter/labels/e%3A%20OS%20Version%20specific), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#94869](https://github.com/flutter/flutter/issues/94869) opened on December 8, 2021 by [HankG](https://api.github.com/users/HankG)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/94869)
 [App fails to locate swrast_dri.so under flutter run, but runs when invoked directly on Linux](https://github.com/flutter/flutter/issues/76178)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76178](https://github.com/flutter/flutter/issues/76178) opened on February 17, 2021 by [Milvintsiss](https://api.github.com/users/Milvintsiss)</sub> | 💬 [47](https://github.com/flutter/flutter/issues/76178)
 
-[See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22)
-
 ## Popular issues
 
-[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[430 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
