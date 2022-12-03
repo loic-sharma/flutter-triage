@@ -40,7 +40,7 @@ Name | Comments
 
 Name | Comments
 -- | --
-[Keys don't map correctly when using "Dvorak - QWERTY ⌘" layout on macOS](https://github.com/flutter/flutter/issues/116456)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116456](https://github.com/flutter/flutter/issues/116456) opened on December 3, 2022 by [xster](https://api.github.com/users/xster)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/116456)
+[Keys don't map correctly when using "Dvorak - QWERTY ⌘" layout on macOS](https://github.com/flutter/flutter/issues/116456)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116456](https://github.com/flutter/flutter/issues/116456) opened on December 3, 2022 by [xster](https://api.github.com/users/xster)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/116456)
 [macOS FlutterEngine instances are leaked due to reference cycle](https://github.com/flutter/flutter/issues/116445)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116445](https://github.com/flutter/flutter/issues/116445) opened on December 3, 2022 by [jason-simmons](https://api.github.com/users/jason-simmons)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/116445)
 
 ## P0 bugs
