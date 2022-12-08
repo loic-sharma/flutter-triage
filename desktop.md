@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
-* [Framework pull requests](#framework-pull-requests) - 2 open
+* [Framework pull requests](#framework-pull-requests) - 3 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -27,12 +27,13 @@ Name | Comments
 
 ## Framework pull requests
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Support horizontal mouse scrolling through modifier keys](https://github.com/flutter/flutter/pull/115610)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse)<br />[#115610](https://github.com/flutter/flutter/pull/115610) opened on November 18, 2022 by [Piinks](https://api.github.com/users/Piinks)</sub> | 💬 [7](https://github.com/flutter/flutter/pull/115610)
 [Avoid null terminating characters in strings from Utf8FromUtf16()](https://github.com/flutter/flutter/pull/109729)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`tool`](https://github.com/flutter/flutter/labels/tool), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#109729](https://github.com/flutter/flutter/pull/109729) opened on August 17, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [7](https://github.com/flutter/flutter/pull/109729)
+[add generated_plugins.cmake to .gitignore](https://github.com/flutter/flutter/pull/116581)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116581](https://github.com/flutter/flutter/pull/116581) opened on December 6, 2022 by [IvoB1987](https://api.github.com/users/IvoB1987)</sub> | 💬 [1](https://github.com/flutter/flutter/pull/116581)
 
 ## Bugs without priorities
 
