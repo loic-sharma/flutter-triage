@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -36,12 +36,8 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Name | Comments
--- | --
-[Keys don't map correctly when using "Dvorak - QWERTY ⌘" layout on macOS](https://github.com/flutter/flutter/issues/116456)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116456](https://github.com/flutter/flutter/issues/116456) opened on December 3, 2022 by [xster](https://api.github.com/users/xster)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/116456)
-[Thin lines/borders appear when using `LinearGradient` with a `ShaderMask` ](https://github.com/flutter/flutter/issues/115648)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#115648](https://github.com/flutter/flutter/issues/115648) opened on November 18, 2022 by [leonx98](https://api.github.com/users/leonx98)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/115648)
 
 ## P0 bugs
 
