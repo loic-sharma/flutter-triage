@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 7 open
+* [Bugs without priorities](#bugs-without-priorities) - 8 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
 * [Crashes](#crashes) - 10 open
-* [Popular issues](#popular-issues) - 432 open
+* [Popular issues](#popular-issues) - 433 open
 * [Popular features requests](#popular-features-requests) - 97 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -36,12 +36,13 @@ Name | Comments
 
 ## Bugs without priorities
 
-[7 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[8 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[Windows application does not display window when windows directory was generated with `flutter create . --platforms=windows`](https://github.com/flutter/flutter/issues/116699)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#116699](https://github.com/flutter/flutter/issues/116699) opened on December 8, 2022 by [TUGTEN](https://api.github.com/users/TUGTEN)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/116699)
 [DataTable: expose focus-related attributes](https://github.com/flutter/flutter/issues/116644)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus)<br />[#116644](https://github.com/flutter/flutter/issues/116644) opened on December 7, 2022 by [jpnurmi](https://api.github.com/users/jpnurmi)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/116644)
-[DataTable: missing secondary tap callback](https://github.com/flutter/flutter/issues/116643)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116643](https://github.com/flutter/flutter/issues/116643) opened on December 7, 2022 by [jpnurmi](https://api.github.com/users/jpnurmi)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/116643)
+[DataTable: missing secondary tap callback](https://github.com/flutter/flutter/issues/116643)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116643](https://github.com/flutter/flutter/issues/116643) opened on December 7, 2022 by [jpnurmi](https://api.github.com/users/jpnurmi)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/116643)
 [Have  SelectionArea's selectionControls display and function for web and mac](https://github.com/flutter/flutter/issues/116607)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116607](https://github.com/flutter/flutter/issues/116607) opened on December 6, 2022 by [Hendler](https://api.github.com/users/Hendler)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/116607)
 [Almost a full second of first-frame jank when resuming app on macos with automatic graphics switching enabled](https://github.com/flutter/flutter/issues/116499)<br /><sub>[`severe: performance`](https://github.com/flutter/flutter/labels/severe%3A%20performance), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`perf: energy`](https://github.com/flutter/flutter/labels/perf%3A%20energy), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#116499](https://github.com/flutter/flutter/issues/116499) opened on December 5, 2022 by [iCodeSometime](https://api.github.com/users/iCodeSometime)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/116499)
 [Keys don't map correctly when using "Dvorak - QWERTY ⌘" layout on macOS](https://github.com/flutter/flutter/issues/116456)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116456](https://github.com/flutter/flutter/issues/116456) opened on December 3, 2022 by [xster](https://api.github.com/users/xster)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/116456)
@@ -100,7 +101,7 @@ Name | Comments
 
 ## Popular issues
 
-[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[433 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
