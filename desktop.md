@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 0 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
-* [Crashes](#crashes) - 10 open
-* [Popular issues](#popular-issues) - 431 open
+* [Crashes](#crashes) - 11 open
+* [Popular issues](#popular-issues) - 432 open
 * [Popular features requests](#popular-features-requests) - 97 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,8 +37,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
+Name | Comments
+-- | --
+[Error building on MacOS](https://github.com/flutter/flutter/issues/116386)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116386](https://github.com/flutter/flutter/issues/116386) opened on December 1, 2022 by [WorikQCI](https://api.github.com/users/WorikQCI)</sub> | 💬 [11](https://github.com/flutter/flutter/issues/116386)
 
 ## P0 bugs
 
@@ -75,7 +78,7 @@ Name | Comments
 
 ## Crashes
 
-[10 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -90,9 +93,11 @@ Name | Comments
 [Image painting causes Linux Nouveau driver errors that crashes the app and sometimes display server](https://github.com/flutter/flutter/issues/94869)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`e: OS Version specific`](https://github.com/flutter/flutter/labels/e%3A%20OS%20Version%20specific), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#94869](https://github.com/flutter/flutter/issues/94869) opened on December 8, 2021 by [HankG](https://api.github.com/users/HankG)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/94869)
 [App fails to locate swrast_dri.so under flutter run, but runs when invoked directly on Linux](https://github.com/flutter/flutter/issues/76178)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76178](https://github.com/flutter/flutter/issues/76178) opened on February 17, 2021 by [Milvintsiss](https://api.github.com/users/Milvintsiss)</sub> | 💬 [47](https://github.com/flutter/flutter/issues/76178)
 
+[See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22)
+
 ## Popular issues
 
-[431 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[432 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
