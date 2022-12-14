@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
-* [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 436 open
+* [Crashes](#crashes) - 11 open
+* [Popular issues](#popular-issues) - 435 open
 * [Popular features requests](#popular-features-requests) - 98 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,14 +37,13 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Implement `StringSearch` for `AXPlatformNodeTextRangeProviderWin`](https://github.com/flutter/flutter/issues/117013)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#117013](https://github.com/flutter/flutter/issues/117013) opened on December 13, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/117013)
 [Bring up remaining AXPlatformNodeTextRangeProviderWin unittests](https://github.com/flutter/flutter/issues/117012)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#117012](https://github.com/flutter/flutter/issues/117012) opened on December 13, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/117012)
 [Unexpected exceptions with no explanation occured while building application for windows10](https://github.com/flutter/flutter/issues/116958)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build)<br />[#116958](https://github.com/flutter/flutter/issues/116958) opened on December 13, 2022 by [Embers-of-the-Fire](https://api.github.com/users/Embers-of-the-Fire)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/116958)
-[Error building on MacOS](https://github.com/flutter/flutter/issues/116386)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116386](https://github.com/flutter/flutter/issues/116386) opened on December 1, 2022 by [WorikQCI](https://api.github.com/users/WorikQCI)</sub> | 💬 [11](https://github.com/flutter/flutter/issues/116386)
 
 ## P0 bugs
 
@@ -81,7 +80,7 @@ Name | Comments
 
 ## Crashes
 
-[12 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -92,15 +91,15 @@ Name | Comments
 [[macOS] App crashes when debugging and resuming focus on idle app.](https://github.com/flutter/flutter/issues/103268)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`dependency: dart`](https://github.com/flutter/flutter/labels/dependency%3A%20dart), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#103268](https://github.com/flutter/flutter/issues/103268) opened on May 7, 2022 by [CEOSiyris](https://api.github.com/users/CEOSiyris)</sub> | 💬 [11](https://github.com/flutter/flutter/issues/103268)
 [DeltaTextInputClient has different behavior between macOS and Linux](https://github.com/flutter/flutter/issues/113909)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P3`](https://github.com/flutter/flutter/labels/P3), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#113909](https://github.com/flutter/flutter/issues/113909) opened on October 23, 2022 by [LucasXu0](https://api.github.com/users/LucasXu0)</sub> | 💬 [16](https://github.com/flutter/flutter/issues/113909)
 [App fails to locate swrast_dri.so under flutter run, but runs when invoked directly on Linux](https://github.com/flutter/flutter/issues/76178)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76178](https://github.com/flutter/flutter/issues/76178) opened on February 17, 2021 by [Milvintsiss](https://api.github.com/users/Milvintsiss)</sub> | 💬 [47](https://github.com/flutter/flutter/issues/76178)
-[Error building on MacOS](https://github.com/flutter/flutter/issues/116386)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116386](https://github.com/flutter/flutter/issues/116386) opened on December 1, 2022 by [WorikQCI](https://api.github.com/users/WorikQCI)</sub> | 💬 [11](https://github.com/flutter/flutter/issues/116386)
 [Image painting causes Linux Nouveau driver errors that crashes the app and sometimes display server](https://github.com/flutter/flutter/issues/94869)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`e: OS Version specific`](https://github.com/flutter/flutter/labels/e%3A%20OS%20Version%20specific), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#94869](https://github.com/flutter/flutter/issues/94869) opened on December 8, 2021 by [HankG](https://api.github.com/users/HankG)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/94869)
 [[Windows] Desktop app crashes with Lost connection to device](https://github.com/flutter/flutter/issues/95496)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`e: device-specific`](https://github.com/flutter/flutter/labels/e%3A%20device-specific), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#95496](https://github.com/flutter/flutter/issues/95496) opened on December 18, 2021 by [SahajRana](https://api.github.com/users/SahajRana)</sub> | 💬 [21](https://github.com/flutter/flutter/issues/95496)
+[Backspace in text field causes error ](https://github.com/flutter/flutter/issues/116953)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P3`](https://github.com/flutter/flutter/labels/P3)<br />[#116953](https://github.com/flutter/flutter/issues/116953) opened on December 13, 2022 by [domesticmouse](https://api.github.com/users/domesticmouse)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/116953)
 
 [See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22)
 
 ## Popular issues
 
-[436 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[435 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
