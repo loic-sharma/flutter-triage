@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -31,20 +31,14 @@ Name | Comments
 
 Name | Comments
 -- | --
-[Support horizontal mouse scrolling through modifier keys](https://github.com/flutter/flutter/pull/115610)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse)<br />[#115610](https://github.com/flutter/flutter/pull/115610) opened on November 18, 2022 by [Piinks](https://api.github.com/users/Piinks)</sub> | 💬 [7](https://github.com/flutter/flutter/pull/115610)
 [Avoid null terminating characters in strings from Utf8FromUtf16()](https://github.com/flutter/flutter/pull/109729)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`tool`](https://github.com/flutter/flutter/labels/tool), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#109729](https://github.com/flutter/flutter/pull/109729) opened on August 17, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [7](https://github.com/flutter/flutter/pull/109729)
 [add generated_plugins.cmake to .gitignore](https://github.com/flutter/flutter/pull/116581)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#116581](https://github.com/flutter/flutter/pull/116581) opened on December 6, 2022 by [IvoB1987](https://api.github.com/users/IvoB1987)</sub> | 💬 [1](https://github.com/flutter/flutter/pull/116581)
+[Support horizontal mouse scrolling through modifier keys](https://github.com/flutter/flutter/pull/115610)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse)<br />[#115610](https://github.com/flutter/flutter/pull/115610) opened on November 18, 2022 by [Piinks](https://api.github.com/users/Piinks)</sub> | 💬 [8](https://github.com/flutter/flutter/pull/115610)
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Name | Comments
--- | --
-[Support fixture tests on Linux](https://github.com/flutter/flutter/issues/117102)<br /><sub>[`a: tests`](https://github.com/flutter/flutter/labels/a%3A%20tests), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`tech-debt`](https://github.com/flutter/flutter/labels/tech-debt)<br />[#117102](https://github.com/flutter/flutter/issues/117102) opened on December 14, 2022 by [cbracken](https://api.github.com/users/cbracken)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/117102)
-[Implement `StringSearch` for `AXPlatformNodeTextRangeProviderWin`](https://github.com/flutter/flutter/issues/117013)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#117013](https://github.com/flutter/flutter/issues/117013) opened on December 13, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/117013)
-[Bring up remaining AXPlatformNodeTextRangeProviderWin unittests](https://github.com/flutter/flutter/issues/117012)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#117012](https://github.com/flutter/flutter/issues/117012) opened on December 13, 2022 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/117012)
-[Unexpected exceptions with no explanation occured while building application for windows10](https://github.com/flutter/flutter/issues/116958)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build)<br />[#116958](https://github.com/flutter/flutter/issues/116958) opened on December 13, 2022 by [Embers-of-the-Fire](https://api.github.com/users/Embers-of-the-Fire)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/116958)
 
 ## P0 bugs
 
