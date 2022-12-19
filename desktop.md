@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -37,11 +37,10 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[Incorrect key events for accented characters](https://github.com/flutter/flutter/issues/117294)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#117294](https://github.com/flutter/flutter/issues/117294) opened on December 19, 2022 by [angelosilvestre](https://api.github.com/users/angelosilvestre)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/117294)
 [Moving a Flutter desktop window between screens can fail](https://github.com/flutter/flutter/issues/117247)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#117247](https://github.com/flutter/flutter/issues/117247) opened on December 16, 2022 by [HansMuller](https://api.github.com/users/HansMuller)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/117247)
 
 ## P0 bugs
