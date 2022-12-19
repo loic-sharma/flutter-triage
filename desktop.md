@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 0 open
+* [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
-* [Regressions](#regressions) - 6 open
+* [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 436 open
+* [Popular issues](#popular-issues) - 438 open
 * [Popular features requests](#popular-features-requests) - 98 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,8 +37,12 @@ Name | Comments
 
 ## Bugs without priorities
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
+Name | Comments
+-- | --
+[Incorrect key events for accented characters](https://github.com/flutter/flutter/issues/117294)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#117294](https://github.com/flutter/flutter/issues/117294) opened on December 19, 2022 by [angelosilvestre](https://api.github.com/users/angelosilvestre)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/117294)
+[Moving a Flutter desktop window between screens can fail](https://github.com/flutter/flutter/issues/117247)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#117247](https://github.com/flutter/flutter/issues/117247) opened on December 16, 2022 by [HansMuller](https://api.github.com/users/HansMuller)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/117247)
 
 ## P0 bugs
 
@@ -62,7 +66,7 @@ Name | Comments
 
 ## Regressions
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
+[7 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
 Name | Comments
 -- | --
@@ -72,6 +76,7 @@ Name | Comments
 [[Desktop-Windows]Chinese characters are incorrectly rendered in flutter 3](https://github.com/flutter/flutter/issues/103811)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#103811](https://github.com/flutter/flutter/issues/103811) opened on May 14, 2022 by [Kamihimmel](https://api.github.com/users/Kamihimmel)</sub> | 💬 [32](https://github.com/flutter/flutter/issues/103811)
 [Emojis render no color on macOS Desktop](https://github.com/flutter/flutter/issues/100964)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 2.13`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.13), [`found in release: 2.12`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.12)<br />[#100964](https://github.com/flutter/flutter/issues/100964) opened on March 29, 2022 by [letungcntt](https://api.github.com/users/letungcntt)</sub> | 💬 [17](https://github.com/flutter/flutter/issues/100964)
 [Background color on desktop is not black](https://github.com/flutter/flutter/issues/76082)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76082](https://github.com/flutter/flutter/issues/76082) opened on February 15, 2021 by [Hixie](https://api.github.com/users/Hixie)</sub> | 💬 [21](https://github.com/flutter/flutter/issues/76082)
+[Moving a Flutter desktop window between screens can fail](https://github.com/flutter/flutter/issues/117247)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.6`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.6)<br />[#117247](https://github.com/flutter/flutter/issues/117247) opened on December 16, 2022 by [HansMuller](https://api.github.com/users/HansMuller)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/117247)
 
 ## Crashes
 
@@ -94,7 +99,7 @@ Name | Comments
 
 ## Popular issues
 
-[436 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[438 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
