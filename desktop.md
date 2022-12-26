@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 439 open
+* [Popular issues](#popular-issues) - 440 open
 * [Popular features requests](#popular-features-requests) - 97 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,10 +37,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[BUG] Tooltip calls build when mouse enters/leaves Flutter window](https://github.com/flutter/flutter/issues/117627)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#117627](https://github.com/flutter/flutter/issues/117627) opened on December 25, 2022 by [asmith20002](https://api.github.com/users/asmith20002)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/117627)
 [FloatingActionButton child widget state lost on mouse cursor hover outside of app](https://github.com/flutter/flutter/issues/117390)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#117390](https://github.com/flutter/flutter/issues/117390) opened on December 20, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/117390)
 [[go_router] WidgetApp default Page beeps on click (SystemSound.play(SystemSoundType.alert))](https://github.com/flutter/flutter/issues/117342)<br /><sub>[`p: first party`](https://github.com/flutter/flutter/labels/p%3A%20first%20party), [`package`](https://github.com/flutter/flutter/labels/package), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`p: go_router`](https://github.com/flutter/flutter/labels/p%3A%20go_router), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#117342](https://github.com/flutter/flutter/issues/117342) opened on December 19, 2022 by [passsy](https://api.github.com/users/passsy)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/117342)
 
@@ -98,7 +99,7 @@ Name | Comments
 
 ## Popular issues
 
-[439 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[440 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
