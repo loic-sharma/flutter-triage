@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 2 open
+* [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
 * [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,12 +18,13 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[2 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[3 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
 [Re-enable UIA text/range provider unit tests](https://github.com/flutter/engine/pull/38718)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#38718](https://github.com/flutter/engine/pull/38718) opened on January 9, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/38718)
+[Mark nodes as `kIsLineBreakingObject` by default, TODO further distinctions](https://github.com/flutter/engine/pull/38721)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows), [`needs tests`](https://github.com/flutter/engine/labels/needs%20tests)<br />[#38721](https://github.com/flutter/engine/pull/38721) opened on January 9, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [1](https://github.com/flutter/engine/pull/38721)
 
 ## Framework pull requests
 
