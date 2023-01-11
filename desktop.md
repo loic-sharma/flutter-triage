@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 3 open
-* [Bugs without priorities](#bugs-without-priorities) - 3 open
+* [Bugs without priorities](#bugs-without-priorities) - 4 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 6 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 442 open
+* [Popular issues](#popular-issues) - 443 open
 * [Popular features requests](#popular-features-requests) - 98 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,10 +37,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[Linux] app template should register plugins before showing the window](https://github.com/flutter/flutter/issues/118269)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#118269](https://github.com/flutter/flutter/issues/118269) opened on January 10, 2023 by [jpnurmi](https://api.github.com/users/jpnurmi)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/118269)
 [Implement PlatformView mutators on macOS](https://github.com/flutter/flutter/issues/118142)<br /><sub>[`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: platform-views`](https://github.com/flutter/flutter/labels/a%3A%20platform-views), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#118142](https://github.com/flutter/flutter/issues/118142) opened on January 7, 2023 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/118142)
 [TextField.TextCapitalization doesn't work on desktop](https://github.com/flutter/flutter/issues/118074)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#118074](https://github.com/flutter/flutter/issues/118074) opened on January 6, 2023 by [warcayac](https://api.github.com/users/warcayac)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/118074)
 [DropdownButton and BottomNavigationBar not working with JAWs](https://github.com/flutter/flutter/issues/117997)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#117997](https://github.com/flutter/flutter/issues/117997) opened on January 4, 2023 by [ipainchaud](https://api.github.com/users/ipainchaud)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/117997)
@@ -99,7 +100,7 @@ Name | Comments
 
 ## Popular issues
 
-[442 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[443 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
