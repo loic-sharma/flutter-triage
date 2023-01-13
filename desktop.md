@@ -23,7 +23,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 Name | Comments
 -- | --
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
-[Merge MSAA alert functionality with UIA](https://github.com/flutter/engine/pull/38745)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#38745](https://github.com/flutter/engine/pull/38745) opened on January 10, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [1](https://github.com/flutter/engine/pull/38745)
+[Merge MSAA alert functionality with UIA](https://github.com/flutter/engine/pull/38745)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#38745](https://github.com/flutter/engine/pull/38745) opened on January 10, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [2](https://github.com/flutter/engine/pull/38745)
 
 ## Framework pull requests
 
