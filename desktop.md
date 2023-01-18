@@ -5,7 +5,7 @@ Triage queries:
 * [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
-* [P2 bugs](#p2-bugs) - 0 open
+* [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 13 open
@@ -60,8 +60,11 @@ Name | Comments
 
 ## P2 bugs
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22P2%22).
 
+Name | Comments
+-- | --
+[Cupertino switch doesn't toggle on pressing Enter key from the physical keyboard](https://github.com/flutter/flutter/issues/101023)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: cupertino`](https://github.com/flutter/flutter/labels/f%3A%20cupertino), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P2`](https://github.com/flutter/flutter/labels/P2), [`found in release: 2.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.10), [`found in release: 2.13`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.13)<br />[#101023](https://github.com/flutter/flutter/issues/101023) opened on March 30, 2022 by [woutervanwijk](https://api.github.com/users/woutervanwijk)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/101023)
 
 ## Flakes
 
