@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 2 open
+* [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 4 open
 * [Bugs without priorities](#bugs-without-priorities) - 8 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -9,7 +9,7 @@ Triage queries:
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 452 open
+* [Popular issues](#popular-issues) - 451 open
 * [Popular features requests](#popular-features-requests) - 100 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -18,12 +18,11 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[2 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[1 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
-[Merge MSAA alert functionality with UIA](https://github.com/flutter/engine/pull/38745)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#38745](https://github.com/flutter/engine/pull/38745) opened on January 10, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [2](https://github.com/flutter/engine/pull/38745)
 
 ## Framework pull requests
 
@@ -109,7 +108,7 @@ Name | Comments
 
 ## Popular issues
 
-[452 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[451 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
