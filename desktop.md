@@ -10,7 +10,7 @@ Triage queries:
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 12 open
 * [Popular issues](#popular-issues) - 447 open
-* [Popular features requests](#popular-features-requests) - 100 open
+* [Popular features requests](#popular-features-requests) - 101 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -114,7 +114,7 @@ Name | Comments
 
 ## Popular features requests
 
-[100 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[101 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
