@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 4 open
-* [Bugs without priorities](#bugs-without-priorities) - 0 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 447 open
+* [Popular issues](#popular-issues) - 448 open
 * [Popular features requests](#popular-features-requests) - 101 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,8 +37,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
+Name | Comments
+-- | --
+[Improve handling of a moved Visual Studio installation](https://github.com/flutter/flutter/issues/118590)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build)<br />[#118590](https://github.com/flutter/flutter/issues/118590) opened on January 17, 2023 by [dong-lufei](https://api.github.com/users/dong-lufei)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/118590)
 
 ## P0 bugs
 
@@ -95,7 +98,7 @@ Name | Comments
 
 ## Popular issues
 
-[447 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[448 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
