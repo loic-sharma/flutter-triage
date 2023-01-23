@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 4 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -10,7 +10,7 @@ Triage queries:
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 12 open
 * [Popular issues](#popular-issues) - 449 open
-* [Popular features requests](#popular-features-requests) - 101 open
+* [Popular features requests](#popular-features-requests) - 102 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -37,10 +37,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[Add support for editing the arguments that flutter passes to CMAKE](https://github.com/flutter/flutter/issues/119006)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build)<br />[#119006](https://github.com/flutter/flutter/issues/119006) opened on January 23, 2023 by [eladmaimoni](https://api.github.com/users/eladmaimoni)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/119006)
 [GestureDetector's onScaleUpdate does not differentiate between horizontal and vertical scaling on Windows](https://github.com/flutter/flutter/issues/118887)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`f: gestures`](https://github.com/flutter/flutter/labels/f%3A%20gestures), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#118887](https://github.com/flutter/flutter/issues/118887) opened on January 20, 2023 by [fischerscode](https://api.github.com/users/fischerscode)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/118887)
 [Improve handling of a moved Visual Studio installation](https://github.com/flutter/flutter/issues/118590)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build)<br />[#118590](https://github.com/flutter/flutter/issues/118590) opened on January 17, 2023 by [dong-lufei](https://api.github.com/users/dong-lufei)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/118590)
 
@@ -118,7 +119,7 @@ Name | Comments
 
 ## Popular features requests
 
-[101 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[102 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
