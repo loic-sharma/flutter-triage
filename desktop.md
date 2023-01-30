@@ -7,9 +7,9 @@ Triage queries:
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
-* [Regressions](#regressions) - 5 open
+* [Regressions](#regressions) - 4 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 451 open
+* [Popular issues](#popular-issues) - 450 open
 * [Popular features requests](#popular-features-requests) - 103 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -68,14 +68,13 @@ Name | Comments
 
 ## Regressions
 
-[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
+[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
 Name | Comments
 -- | --
 [Emojis render no color on macOS Desktop](https://github.com/flutter/flutter/issues/100964)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 2.13`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.13), [`found in release: 2.12`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.12)<br />[#100964](https://github.com/flutter/flutter/issues/100964) opened on March 29, 2022 by [letungcntt](https://api.github.com/users/letungcntt)</sub> | 💬 [17](https://github.com/flutter/flutter/issues/100964)
 [Background color on desktop is not black](https://github.com/flutter/flutter/issues/76082)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76082](https://github.com/flutter/flutter/issues/76082) opened on February 15, 2021 by [Hixie](https://api.github.com/users/Hixie)</sub> | 💬 [21](https://github.com/flutter/flutter/issues/76082)
 [Incorrect horizontal caret movement with Unicode combining characters](https://github.com/flutter/flutter/issues/98516)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 2.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.10), [`found in release: 2.11`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.11)<br />[#98516](https://github.com/flutter/flutter/issues/98516) opened on February 15, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/98516)
-[[glinux] Linux Desktop TextFields don't accept keyboard input (remote-only?)](https://github.com/flutter/flutter/issues/61163)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`waiting for customer response`](https://github.com/flutter/flutter/labels/waiting%20for%20customer%20response), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P6`](https://github.com/flutter/flutter/labels/P6)<br />[#61163](https://github.com/flutter/flutter/issues/61163) opened on July 9, 2020 by [terrylucas](https://api.github.com/users/terrylucas)</sub> | 💬 [19](https://github.com/flutter/flutter/issues/61163)
 [[Desktop-Windows]Chinese characters are incorrectly rendered in flutter 3](https://github.com/flutter/flutter/issues/103811)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.0), [`found in release: 3.1`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.1)<br />[#103811](https://github.com/flutter/flutter/issues/103811) opened on May 14, 2022 by [Kamihimmel](https://api.github.com/users/Kamihimmel)</sub> | 💬 [33](https://github.com/flutter/flutter/issues/103811)
 
 ## Crashes
@@ -99,7 +98,7 @@ Name | Comments
 
 ## Popular issues
 
-[451 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[450 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
