@@ -9,7 +9,7 @@ Triage queries:
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 4 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 453 open
+* [Popular issues](#popular-issues) - 454 open
 * [Popular features requests](#popular-features-requests) - 103 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -31,8 +31,8 @@ Name | Comments
 
 Name | Comments
 -- | --
-[Support flipping mouse scrolling axes through modifier keys](https://github.com/flutter/flutter/pull/115610)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse)<br />[#115610](https://github.com/flutter/flutter/pull/115610) opened on November 18, 2022 by [Piinks](https://api.github.com/users/Piinks)</sub> | 💬 [11](https://github.com/flutter/flutter/pull/115610)
 [Avoid null terminating characters in strings from Utf8FromUtf16()](https://github.com/flutter/flutter/pull/109729)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`tool`](https://github.com/flutter/flutter/labels/tool), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#109729](https://github.com/flutter/flutter/pull/109729) opened on August 17, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [10](https://github.com/flutter/flutter/pull/109729)
+[Support flipping mouse scrolling axes through modifier keys](https://github.com/flutter/flutter/pull/115610)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`autosubmit`](https://github.com/flutter/flutter/labels/autosubmit)<br />[#115610](https://github.com/flutter/flutter/pull/115610) opened on November 18, 2022 by [Piinks](https://api.github.com/users/Piinks)</sub> | 💬 [11](https://github.com/flutter/flutter/pull/115610)
 
 ## Bugs without priorities
 
@@ -100,7 +100,7 @@ Name | Comments
 
 ## Popular issues
 
-[453 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[454 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
