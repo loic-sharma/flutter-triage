@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 3 open
-* [Framework pull requests](#framework-pull-requests) - 2 open
+* [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 7 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -9,8 +9,8 @@ Triage queries:
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 4 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 454 open
-* [Popular features requests](#popular-features-requests) - 103 open
+* [Popular issues](#popular-issues) - 453 open
+* [Popular features requests](#popular-features-requests) - 102 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -24,16 +24,15 @@ Name | Comments
 -- | --
 [Use Windows high contrast black/white theme with `MaterialApp` themes](https://github.com/flutter/engine/pull/39206)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#39206](https://github.com/flutter/engine/pull/39206) opened on January 27, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/39206)
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
-[Reland "[macos] Move TextInputPlugin outside of visible area"](https://github.com/flutter/engine/pull/39194)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#39194](https://github.com/flutter/engine/pull/39194) opened on January 27, 2023 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [0](https://github.com/flutter/engine/pull/39194)
+[Reland "[macos] Move TextInputPlugin outside of visible area"](https://github.com/flutter/engine/pull/39194)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#39194](https://github.com/flutter/engine/pull/39194) opened on January 27, 2023 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [1](https://github.com/flutter/engine/pull/39194)
 
 ## Framework pull requests
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Avoid null terminating characters in strings from Utf8FromUtf16()](https://github.com/flutter/flutter/pull/109729)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`tool`](https://github.com/flutter/flutter/labels/tool), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#109729](https://github.com/flutter/flutter/pull/109729) opened on August 17, 2022 by [tgucio](https://api.github.com/users/tgucio)</sub> | 💬 [10](https://github.com/flutter/flutter/pull/109729)
-[Support flipping mouse scrolling axes through modifier keys](https://github.com/flutter/flutter/pull/115610)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: quality`](https://github.com/flutter/flutter/labels/a%3A%20quality), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`autosubmit`](https://github.com/flutter/flutter/labels/autosubmit)<br />[#115610](https://github.com/flutter/flutter/pull/115610) opened on November 18, 2022 by [Piinks](https://api.github.com/users/Piinks)</sub> | 💬 [11](https://github.com/flutter/flutter/pull/115610)
 
 ## Bugs without priorities
 
@@ -101,7 +100,7 @@ Name | Comments
 
 ## Popular issues
 
-[454 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[453 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
@@ -113,14 +112,14 @@ Name | Comments
 [Blinking cursor should use less CPU](https://github.com/flutter/flutter/issues/59327)<br /><sub>[`severe: performance`](https://github.com/flutter/flutter/labels/severe%3A%20performance), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`perf: memory`](https://github.com/flutter/flutter/labels/perf%3A%20memory), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 1.20`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%201.20), [`found in release: 2.2`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.2), [`found in release: 2.4`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.4)<br />[#59327](https://github.com/flutter/flutter/issues/59327) opened on June 12, 2020 by [Blquinn](https://api.github.com/users/Blquinn)</sub> | 💬 [42](https://github.com/flutter/flutter/issues/59327)
 [☂️ Proposal: desktop context menu fidelity](https://github.com/flutter/flutter/issues/74255)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P5`](https://github.com/flutter/flutter/labels/P5)<br />[#74255](https://github.com/flutter/flutter/issues/74255) opened on January 19, 2021 by [justinmc](https://api.github.com/users/justinmc)</sub> | 💬 [21](https://github.com/flutter/flutter/issues/74255)
 [[camera] Add Linux support](https://github.com/flutter/flutter/issues/41710)<br /><sub>[`plugin`](https://github.com/flutter/flutter/labels/plugin), [`p: first party`](https://github.com/flutter/flutter/labels/p%3A%20first%20party), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`p: camera`](https://github.com/flutter/flutter/labels/p%3A%20camera), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P5`](https://github.com/flutter/flutter/labels/P5)<br />[#41710](https://github.com/flutter/flutter/issues/41710) opened on October 1, 2019 by [stuartmorgan](https://api.github.com/users/stuartmorgan)</sub> | 💬 [13](https://github.com/flutter/flutter/issues/41710)
-[Shift-mousewheel for horizontal scroll](https://github.com/flutter/flutter/issues/75180)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P3`](https://github.com/flutter/flutter/labels/P3), [`found in release: 2.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.3)<br />[#75180](https://github.com/flutter/flutter/issues/75180) opened on February 2, 2021 by [Hixie](https://api.github.com/users/Hixie)</sub> | 💬 [44](https://github.com/flutter/flutter/issues/75180)
 [Flutter Fonts are not rendering correctly, Antialiasing is doubled on desktop](https://github.com/flutter/flutter/issues/67034)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`f: inspector`](https://github.com/flutter/flutter/labels/f%3A%20inspector), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 1.22`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%201.22), [`found in release: 2.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.0), [`found in release: 2.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.3), [`customer: arias`](https://github.com/flutter/flutter/labels/customer%3A%20arias)<br />[#67034](https://github.com/flutter/flutter/issues/67034) opened on October 1, 2020 by [SuperGNUS](https://api.github.com/users/SuperGNUS)</sub> | 💬 [17](https://github.com/flutter/flutter/issues/67034)
+[A KeyRepeatEvent is dispatched, but the state shows that the physical key is not pressed](https://github.com/flutter/flutter/issues/107972)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: error message`](https://github.com/flutter/flutter/labels/a%3A%20error%20message), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#107972](https://github.com/flutter/flutter/issues/107972) opened on July 19, 2022 by [scaphe](https://api.github.com/users/scaphe)</sub> | 💬 [49](https://github.com/flutter/flutter/issues/107972)
 
 [See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22)
 
 ## Popular features requests
 
-[103 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[102 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
