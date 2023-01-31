@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 8 open
+* [Bugs without priorities](#bugs-without-priorities) - 9 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 4 open
 * [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 452 open
+* [Popular issues](#popular-issues) - 453 open
 * [Popular features requests](#popular-features-requests) - 103 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -36,13 +36,14 @@ Name | Comments
 
 ## Bugs without priorities
 
-[8 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[9 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Allow `MenuAnchor` created menus to traverse the submenu via keyboard.](https://github.com/flutter/flutter/issues/119532)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus)<br />[#119532](https://github.com/flutter/flutter/issues/119532) opened on January 30, 2023 by [gspencergoog](https://api.github.com/users/gspencergoog)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/119532)
 [Allow `MenuBar` menus to be focused via keyboard without accelerators](https://github.com/flutter/flutter/issues/119531)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus)<br />[#119531](https://github.com/flutter/flutter/issues/119531) opened on January 30, 2023 by [gspencergoog](https://api.github.com/users/gspencergoog)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/119531)
 [Add snap to item in `CupertinoPicker` when a user scrolls on desktop](https://github.com/flutter/flutter/issues/119500)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`f: cupertino`](https://github.com/flutter/flutter/labels/f%3A%20cupertino), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse)<br />[#119500](https://github.com/flutter/flutter/issues/119500) opened on January 30, 2023 by [deczaloth](https://api.github.com/users/deczaloth)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/119500)
+[[web] TextField bug with IME](https://github.com/flutter/flutter/issues/119411)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#119411](https://github.com/flutter/flutter/issues/119411) opened on January 28, 2023 by [pedia](https://api.github.com/users/pedia)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/119411)
 [Add property to `DragTarget` to change appearance when a `Draggable` is dragged but not necessarily near the `DragTarget`](https://github.com/flutter/flutter/issues/119404)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#119404](https://github.com/flutter/flutter/issues/119404) opened on January 28, 2023 by [bmitc](https://api.github.com/users/bmitc)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/119404)
 [[Windows] Copy engine symbols to build output](https://github.com/flutter/flutter/issues/119363)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: debugging`](https://github.com/flutter/flutter/labels/a%3A%20debugging), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#119363](https://github.com/flutter/flutter/issues/119363) opened on January 27, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/119363)
 [UIA Checkboxes unrecognized by NVDA](https://github.com/flutter/flutter/issues/119350)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#119350](https://github.com/flutter/flutter/issues/119350) opened on January 27, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/119350)
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[452 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[453 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
