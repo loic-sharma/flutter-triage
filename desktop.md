@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 6 open
+* [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -35,16 +35,8 @@ Name | Comments
 
 ## Bugs without priorities
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Name | Comments
--- | --
-[Allow `MenuAnchor` created menus to traverse the submenu via keyboard.](https://github.com/flutter/flutter/issues/119532)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus)<br />[#119532](https://github.com/flutter/flutter/issues/119532) opened on January 30, 2023 by [gspencergoog](https://api.github.com/users/gspencergoog)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/119532)
-[Allow `MenuBar` menus to be focused via keyboard without accelerators](https://github.com/flutter/flutter/issues/119531)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus)<br />[#119531](https://github.com/flutter/flutter/issues/119531) opened on January 30, 2023 by [gspencergoog](https://api.github.com/users/gspencergoog)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/119531)
-[Add snap to item in `CupertinoPicker` when a user scrolls on desktop](https://github.com/flutter/flutter/issues/119500)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`f: cupertino`](https://github.com/flutter/flutter/labels/f%3A%20cupertino), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse)<br />[#119500](https://github.com/flutter/flutter/issues/119500) opened on January 30, 2023 by [deczaloth](https://api.github.com/users/deczaloth)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/119500)
-[Add property to `DragTarget` to change appearance when a `Draggable` is dragged but not necessarily near the `DragTarget`](https://github.com/flutter/flutter/issues/119404)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#119404](https://github.com/flutter/flutter/issues/119404) opened on January 28, 2023 by [bmitc](https://api.github.com/users/bmitc)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/119404)
-[[Windows] Copy engine symbols to build output](https://github.com/flutter/flutter/issues/119363)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: debugging`](https://github.com/flutter/flutter/labels/a%3A%20debugging), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#119363](https://github.com/flutter/flutter/issues/119363) opened on January 27, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/119363)
-[[desktop] Chinese characters cannot be input when TextField is surrounded by ToolTip](https://github.com/flutter/flutter/issues/118547)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#118547](https://github.com/flutter/flutter/issues/118547) opened on January 16, 2023 by [15563988825](https://api.github.com/users/15563988825)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/118547)
 
 ## P0 bugs
 
