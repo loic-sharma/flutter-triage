@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 6 open
+* [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 462 open
+* [Popular issues](#popular-issues) - 461 open
 * [Popular features requests](#popular-features-requests) - 103 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -35,14 +35,13 @@ Name | Comments
 
 ## Bugs without priorities
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [[NavigationDrawer] Selected item does not gain focus while using tab + arrow keys to navigate.](https://github.com/flutter/flutter/issues/120169)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120169](https://github.com/flutter/flutter/issues/120169) opened on February 7, 2023 by [sabin26](https://api.github.com/users/sabin26)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/120169)
 [How to localize `PlatformProvidedMenuItem`?](https://github.com/flutter/flutter/issues/120097)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#120097](https://github.com/flutter/flutter/issues/120097) opened on February 6, 2023 by [mgenware](https://api.github.com/users/mgenware)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/120097)
 [[NavigationRail] Selected item does not gain focus while using tab + arrow keys to navigate.](https://github.com/flutter/flutter/issues/120031)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120031](https://github.com/flutter/flutter/issues/120031) opened on February 5, 2023 by [sabin26](https://api.github.com/users/sabin26)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/120031)
-[Flutter error on MacOS Desktop after 3.7.0 upgrade. Could not acquire Metal device.](https://github.com/flutter/flutter/issues/119994)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`macos-metal`](https://github.com/flutter/flutter/labels/macos-metal)<br />[#119994](https://github.com/flutter/flutter/issues/119994) opened on February 4, 2023 by [JacoFourie](https://api.github.com/users/JacoFourie)</sub> | 💬 [7](https://github.com/flutter/flutter/issues/119994)
 [macOS crash in debug mode - 0x103bbf324 dart::Assert::Fail](https://github.com/flutter/flutter/issues/119841)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`dependency: dart`](https://github.com/flutter/flutter/labels/dependency%3A%20dart), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#119841](https://github.com/flutter/flutter/issues/119841) opened on February 2, 2023 by [filiph](https://api.github.com/users/filiph)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/119841)
 [[Desktop] RefreshIndicator can not be dragged to its full extent](https://github.com/flutter/flutter/issues/119702)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#119702](https://github.com/flutter/flutter/issues/119702) opened on February 1, 2023 by [Mahm0ud-Ahmed](https://api.github.com/users/Mahm0ud-Ahmed)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/119702)
 
@@ -101,7 +100,7 @@ Name | Comments
 
 ## Popular issues
 
-[462 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[461 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
