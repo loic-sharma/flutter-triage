@@ -1,15 +1,15 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 2 open
+* [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 7 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
-* [Regressions](#regressions) - 7 open
+* [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 463 open
+* [Popular issues](#popular-issues) - 464 open
 * [Popular features requests](#popular-features-requests) - 103 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -18,12 +18,13 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[2 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[3 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
 [Reland "[macos] Move TextInputPlugin outside of visible area"](https://github.com/flutter/engine/pull/39194)<br /><sub>[`waiting for tree to go green`](https://github.com/flutter/engine/labels/waiting%20for%20tree%20to%20go%20green), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#39194](https://github.com/flutter/engine/pull/39194) opened on January 27, 2023 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [3](https://github.com/flutter/engine/pull/39194)
+[Enable UIA in Window](https://github.com/flutter/engine/pull/39513)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#39513](https://github.com/flutter/engine/pull/39513) opened on February 9, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/39513)
 
 ## Framework pull requests
 
@@ -69,7 +70,7 @@ Name | Comments
 
 ## Regressions
 
-[7 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
+[8 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
 Name | Comments
 -- | --
@@ -80,6 +81,7 @@ Name | Comments
 [Updated scroll behaviour documentation](https://github.com/flutter/flutter/issues/119122)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#119122](https://github.com/flutter/flutter/issues/119122) opened on January 25, 2023 by [kirill-21](https://api.github.com/users/kirill-21)</sub> | 💬 [14](https://github.com/flutter/flutter/issues/119122)
 [TextField odd behavior , white indicator on the left corner ](https://github.com/flutter/flutter/issues/118504)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.3), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#118504](https://github.com/flutter/flutter/issues/118504) opened on January 14, 2023 by [moesaid](https://api.github.com/users/moesaid)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/118504)
 [[Desktop] RefreshIndicator can not be dragged to its full extent](https://github.com/flutter/flutter/issues/119702)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#119702](https://github.com/flutter/flutter/issues/119702) opened on February 1, 2023 by [Mahm0ud-Ahmed](https://api.github.com/users/Mahm0ud-Ahmed)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/119702)
+[Running macOS tests with flutter drive (or integration_test) fails in a CI environment, on Intel based Mac machines](https://github.com/flutter/flutter/issues/118469)<br /><sub>[`a: tests`](https://github.com/flutter/flutter/labels/a%3A%20tests), [`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#118469](https://github.com/flutter/flutter/issues/118469) opened on January 13, 2023 by [desistefanova](https://api.github.com/users/desistefanova)</sub> | 💬 [22](https://github.com/flutter/flutter/issues/118469)
 
 ## Crashes
 
@@ -102,7 +104,7 @@ Name | Comments
 
 ## Popular issues
 
-[463 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[464 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
