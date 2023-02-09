@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 5 open
+* [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,7 +18,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[5 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[4 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
@@ -26,7 +26,6 @@ Name | Comments
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [10](https://github.com/flutter/engine/pull/37421)
 [Running macOS resize listener in background queue to avoid frozen animations when the main thread is blocked](https://github.com/flutter/engine/pull/38686)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#38686](https://github.com/flutter/engine/pull/38686) opened on January 6, 2023 by [jmatth](https://api.github.com/users/jmatth)</sub> | 💬 [3](https://github.com/flutter/engine/pull/38686)
 [[macOS] Implement platform view mutators](https://github.com/flutter/engine/pull/38699)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#38699](https://github.com/flutter/engine/pull/38699) opened on January 7, 2023 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [5](https://github.com/flutter/engine/pull/38699)
-[[macOS] Make FlutterEngine support multiple views](https://github.com/flutter/engine/pull/37976)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos), [`autosubmit`](https://github.com/flutter/engine/labels/autosubmit)<br />[#37976](https://github.com/flutter/engine/pull/37976) opened on November 30, 2022 by [dkwingsmt](https://api.github.com/users/dkwingsmt)</sub> | 💬 [8](https://github.com/flutter/engine/pull/37976)
 
 ## Framework pull requests
 
