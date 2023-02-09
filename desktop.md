@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 8 open
+* [Engine pull requests](#engine-pull-requests) - 7 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,7 +18,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[8 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[7 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
@@ -28,7 +28,6 @@ Name | Comments
 [[Windows] Prepare keyboard & text input plugins for multi-view](https://github.com/flutter/engine/pull/39464)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#39464](https://github.com/flutter/engine/pull/39464) opened on February 7, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [5](https://github.com/flutter/engine/pull/39464)
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [10](https://github.com/flutter/engine/pull/37421)
 [Running macOS resize listener in background queue to avoid frozen animations when the main thread is blocked](https://github.com/flutter/engine/pull/38686)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#38686](https://github.com/flutter/engine/pull/38686) opened on January 6, 2023 by [jmatth](https://api.github.com/users/jmatth)</sub> | 💬 [3](https://github.com/flutter/engine/pull/38686)
-[Enable UIA in Window](https://github.com/flutter/engine/pull/39513)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#39513](https://github.com/flutter/engine/pull/39513) opened on February 9, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/39513)
 [[macOS] Make FlutterEngine support multiple views](https://github.com/flutter/engine/pull/37976)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37976](https://github.com/flutter/engine/pull/37976) opened on November 30, 2022 by [dkwingsmt](https://api.github.com/users/dkwingsmt)</sub> | 💬 [8](https://github.com/flutter/engine/pull/37976)
 
 ## Framework pull requests
