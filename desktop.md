@@ -8,8 +8,8 @@ Triage queries:
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
-* [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 466 open
+* [Crashes](#crashes) - 11 open
+* [Popular issues](#popular-issues) - 465 open
 * [Popular features requests](#popular-features-requests) - 107 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -83,7 +83,7 @@ Name | Comments
 
 ## Crashes
 
-[12 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -95,14 +95,14 @@ Name | Comments
 [[Windows] Desktop app crashes with Lost connection to device](https://github.com/flutter/flutter/issues/95496)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`e: device-specific`](https://github.com/flutter/flutter/labels/e%3A%20device-specific), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#95496](https://github.com/flutter/flutter/issues/95496) opened on December 18, 2021 by [SahajRana](https://api.github.com/users/SahajRana)</sub> | 💬 [22](https://github.com/flutter/flutter/issues/95496)
 [`Check failed: gl_version_string. The GL proc resolver's glGetString(GL_VERSION) failed` on Linux with Nvidia Graphics Card](https://github.com/flutter/flutter/issues/85460)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`e: device-specific`](https://github.com/flutter/flutter/labels/e%3A%20device-specific), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#85460](https://github.com/flutter/flutter/issues/85460) opened on June 28, 2021 by [erayerdin](https://api.github.com/users/erayerdin)</sub> | 💬 [13](https://github.com/flutter/flutter/issues/85460)
 [[Windows 7]App crashes after leaving TextField focused for about an hour or two](https://github.com/flutter/flutter/issues/106781)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`e: OS Version specific`](https://github.com/flutter/flutter/labels/e%3A%20OS%20Version%20specific), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#106781](https://github.com/flutter/flutter/issues/106781) opened on June 29, 2022 by [2022747973](https://api.github.com/users/2022747973)</sub> | 💬 [10](https://github.com/flutter/flutter/issues/106781)
-[Compiling third_party/angle/src/compiler/translator/translator.BuildSPIRV.obj fails on Win10\MSVS2022Pro](https://github.com/flutter/flutter/issues/116966)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`waiting for customer response`](https://github.com/flutter/flutter/labels/waiting%20for%20customer%20response), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P4`](https://github.com/flutter/flutter/labels/P4), [`local engine development`](https://github.com/flutter/flutter/labels/local%20engine%20development)<br />[#116966](https://github.com/flutter/flutter/issues/116966) opened on December 13, 2022 by [aykutkilic-avl](https://api.github.com/users/aykutkilic-avl)</sub> | 💬 [21](https://github.com/flutter/flutter/issues/116966)
 [Backspace in text field causes error ](https://github.com/flutter/flutter/issues/116953)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`waiting for customer response`](https://github.com/flutter/flutter/labels/waiting%20for%20customer%20response), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P3`](https://github.com/flutter/flutter/labels/P3)<br />[#116953](https://github.com/flutter/flutter/issues/116953) opened on December 13, 2022 by [domesticmouse](https://api.github.com/users/domesticmouse)</sub> | 💬 [28](https://github.com/flutter/flutter/issues/116953)
+[App fails to locate swrast_dri.so under flutter run, but runs when invoked directly on Linux](https://github.com/flutter/flutter/issues/76178)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#76178](https://github.com/flutter/flutter/issues/76178) opened on February 17, 2021 by [Milvintsiss](https://api.github.com/users/Milvintsiss)</sub> | 💬 [49](https://github.com/flutter/flutter/issues/76178)
 
 [See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22)
 
 ## Popular issues
 
-[466 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[465 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
