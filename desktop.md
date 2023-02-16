@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 5 open
+* [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -9,7 +9,7 @@ Triage queries:
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 465 open
+* [Popular issues](#popular-issues) - 464 open
 * [Popular features requests](#popular-features-requests) - 107 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -18,7 +18,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[5 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[4 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
@@ -26,7 +26,6 @@ Name | Comments
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [10](https://github.com/flutter/engine/pull/37421)
 [Running macOS resize listener in background queue to avoid frozen animations when the main thread is blocked](https://github.com/flutter/engine/pull/38686)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#38686](https://github.com/flutter/engine/pull/38686) opened on January 6, 2023 by [jmatth](https://api.github.com/users/jmatth)</sub> | 💬 [3](https://github.com/flutter/engine/pull/38686)
 [[dart:ui] Introduce `PlatformDispatcher.implicitView`](https://github.com/flutter/engine/pull/39553)<br /><sub>[`platform-web`](https://github.com/flutter/engine/labels/platform-web), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`embedder`](https://github.com/flutter/engine/labels/embedder)<br />[#39553](https://github.com/flutter/engine/pull/39553) opened on February 11, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [1](https://github.com/flutter/engine/pull/39553)
-[[macOS] Implement platform view mutators](https://github.com/flutter/engine/pull/38699)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos), [`autosubmit`](https://github.com/flutter/engine/labels/autosubmit)<br />[#38699](https://github.com/flutter/engine/pull/38699) opened on January 7, 2023 by [knopp](https://api.github.com/users/knopp)</sub> | 💬 [7](https://github.com/flutter/engine/pull/38699)
 
 ## Framework pull requests
 
@@ -93,7 +92,7 @@ Name | Comments
 
 ## Popular issues
 
-[465 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[464 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
