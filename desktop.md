@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 0 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
-* [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 464 open
+* [Crashes](#crashes) - 12 open
+* [Popular issues](#popular-issues) - 465 open
 * [Popular features requests](#popular-features-requests) - 107 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -33,8 +33,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
+Name | Comments
+-- | --
+[Hot reload crashes when launching two bundles and one of them extends another class](https://github.com/flutter/flutter/issues/120841)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`tool`](https://github.com/flutter/flutter/labels/tool), [`dependency: dart`](https://github.com/flutter/flutter/labels/dependency%3A%20dart), [`t: hot reload`](https://github.com/flutter/flutter/labels/t%3A%20hot%20reload), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`severe: fatal crash`](https://github.com/flutter/flutter/labels/severe%3A%20fatal%20crash), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120841](https://github.com/flutter/flutter/issues/120841) opened on February 15, 2023 by [fertrig](https://api.github.com/users/fertrig)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/120841)
 
 ## P0 bugs
 
@@ -72,7 +75,7 @@ Name | Comments
 
 ## Crashes
 
-[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[12 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -91,7 +94,7 @@ Name | Comments
 
 ## Popular issues
 
-[464 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[465 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
