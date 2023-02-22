@@ -1,15 +1,15 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 3 open
+* [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 5 open
+* [Bugs without priorities](#bugs-without-priorities) - 6 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
-* [Crashes](#crashes) - 11 open
-* [Popular issues](#popular-issues) - 466 open
+* [Crashes](#crashes) - 12 open
+* [Popular issues](#popular-issues) - 467 open
 * [Popular features requests](#popular-features-requests) - 107 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -18,13 +18,14 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[3 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[4 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
 [Running macOS resize listener in background queue to avoid frozen animations when the main thread is blocked](https://github.com/flutter/engine/pull/38686)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#38686](https://github.com/flutter/engine/pull/38686) opened on January 6, 2023 by [jmatth](https://api.github.com/users/jmatth)</sub> | 💬 [3](https://github.com/flutter/engine/pull/38686)
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [14](https://github.com/flutter/engine/pull/37421)
+[[Windows] Stop engine before destructing FlutterWindowsView](https://github.com/flutter/engine/pull/39788)<br /><sub>[`crash`](https://github.com/flutter/engine/labels/crash), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows), [`needs tests`](https://github.com/flutter/engine/labels/needs%20tests)<br />[#39788](https://github.com/flutter/engine/pull/39788) opened on February 22, 2023 by [scutlight](https://api.github.com/users/scutlight)</sub> | 💬 [1](https://github.com/flutter/engine/pull/39788)
 
 ## Framework pull requests
 
@@ -33,11 +34,12 @@ Name | Comments
 
 ## Bugs without priorities
 
-[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Investigate app publishing and CI/CD on Windows](https://github.com/flutter/flutter/issues/121214)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121214](https://github.com/flutter/flutter/issues/121214) opened on February 22, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/121214)
+[flutter::FlutterWindowsView::PresentSoftwareBitmap crash](https://github.com/flutter/flutter/issues/121189)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: production`](https://github.com/flutter/flutter/labels/a%3A%20production)<br />[#121189](https://github.com/flutter/flutter/issues/121189) opened on February 22, 2023 by [scutlight](https://api.github.com/users/scutlight)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/121189)
 [Flutter desktop web support for Microsoft Edge Read Aloud](https://github.com/flutter/flutter/issues/121153)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121153](https://github.com/flutter/flutter/issues/121153) opened on February 21, 2023 by [omatt](https://api.github.com/users/omatt)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121153)
 [Windows feature request: Ability to localize `Runner.rc`](https://github.com/flutter/flutter/issues/121033)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`tool`](https://github.com/flutter/flutter/labels/tool), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121033](https://github.com/flutter/flutter/issues/121033) opened on February 18, 2023 by [mgenware](https://api.github.com/users/mgenware)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121033)
 [Obsolete references in ViewConfiguration documentation](https://github.com/flutter/flutter/issues/120961)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation), [`a: multi window`](https://github.com/flutter/flutter/labels/a%3A%20multi%20window), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120961](https://github.com/flutter/flutter/issues/120961) opened on February 17, 2023 by [bleroux](https://api.github.com/users/bleroux)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/120961)
@@ -79,7 +81,7 @@ Name | Comments
 
 ## Crashes
 
-[11 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[12 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -98,7 +100,7 @@ Name | Comments
 
 ## Popular issues
 
-[466 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[467 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
