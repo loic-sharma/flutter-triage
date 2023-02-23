@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 6 open
+* [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -34,12 +34,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Investigate app publishing and CI/CD on Windows](https://github.com/flutter/flutter/issues/121214)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121214](https://github.com/flutter/flutter/issues/121214) opened on February 22, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/121214)
-[flutter::FlutterWindowsView::PresentSoftwareBitmap crash](https://github.com/flutter/flutter/issues/121189)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: production`](https://github.com/flutter/flutter/labels/a%3A%20production)<br />[#121189](https://github.com/flutter/flutter/issues/121189) opened on February 22, 2023 by [scutlight](https://api.github.com/users/scutlight)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/121189)
 [Flutter desktop web support for Microsoft Edge Read Aloud](https://github.com/flutter/flutter/issues/121153)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121153](https://github.com/flutter/flutter/issues/121153) opened on February 21, 2023 by [omatt](https://api.github.com/users/omatt)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121153)
 [Windows feature request: Ability to localize `Runner.rc`](https://github.com/flutter/flutter/issues/121033)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`tool`](https://github.com/flutter/flutter/labels/tool), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121033](https://github.com/flutter/flutter/issues/121033) opened on February 18, 2023 by [mgenware](https://api.github.com/users/mgenware)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121033)
 [Obsolete references in ViewConfiguration documentation](https://github.com/flutter/flutter/issues/120961)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation), [`a: multi window`](https://github.com/flutter/flutter/labels/a%3A%20multi%20window), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120961](https://github.com/flutter/flutter/issues/120961) opened on February 17, 2023 by [bleroux](https://api.github.com/users/bleroux)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/120961)
