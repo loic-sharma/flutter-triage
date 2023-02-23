@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 7 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 470 open
+* [Popular issues](#popular-issues) - 469 open
 * [Popular features requests](#popular-features-requests) - 107 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -33,17 +33,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[7 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[[Embedder API] Fix `FlutterEngineNotifyDisplayUpdate`'s ABI stability ](https://github.com/flutter/flutter/issues/121352)<br /><sub>[`e: embedder`](https://github.com/flutter/flutter/labels/e%3A%20embedder), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121352](https://github.com/flutter/flutter/issues/121352) opened on February 23, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/121352)
-[[Embedder API] Lock the `FlutterRect` struct to guarantee ABI stability ](https://github.com/flutter/flutter/issues/121347)<br /><sub>[`e: embedder`](https://github.com/flutter/flutter/labels/e%3A%20embedder), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121347](https://github.com/flutter/flutter/issues/121347) opened on February 23, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/121347)
-[Investigate app publishing and CI/CD on Windows](https://github.com/flutter/flutter/issues/121214)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121214](https://github.com/flutter/flutter/issues/121214) opened on February 22, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/121214)
-[Flutter desktop web support for Microsoft Edge Read Aloud](https://github.com/flutter/flutter/issues/121153)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121153](https://github.com/flutter/flutter/issues/121153) opened on February 21, 2023 by [omatt](https://api.github.com/users/omatt)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121153)
-[Windows feature request: Ability to localize `Runner.rc`](https://github.com/flutter/flutter/issues/121033)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`tool`](https://github.com/flutter/flutter/labels/tool), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121033](https://github.com/flutter/flutter/issues/121033) opened on February 18, 2023 by [mgenware](https://api.github.com/users/mgenware)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121033)
 [Obsolete references in ViewConfiguration documentation](https://github.com/flutter/flutter/issues/120961)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation), [`a: multi window`](https://github.com/flutter/flutter/labels/a%3A%20multi%20window), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120961](https://github.com/flutter/flutter/issues/120961) opened on February 17, 2023 by [bleroux](https://api.github.com/users/bleroux)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/120961)
-[[macOS] TextField left arrow key while composing deletes text inside composing range](https://github.com/flutter/flutter/issues/120852)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120852](https://github.com/flutter/flutter/issues/120852) opened on February 16, 2023 by [K-Maron](https://api.github.com/users/K-Maron)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/120852)
 
 ## P0 bugs
 
@@ -100,7 +94,7 @@ Name | Comments
 
 ## Popular issues
 
-[470 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[469 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
