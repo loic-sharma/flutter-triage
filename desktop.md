@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -33,11 +33,8 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Name | Comments
--- | --
-[Obsolete references in ViewConfiguration documentation](https://github.com/flutter/flutter/issues/120961)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`d: api docs`](https://github.com/flutter/flutter/labels/d%3A%20api%20docs), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation), [`a: multi window`](https://github.com/flutter/flutter/labels/a%3A%20multi%20window), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#120961](https://github.com/flutter/flutter/issues/120961) opened on February 17, 2023 by [bleroux](https://api.github.com/users/bleroux)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/120961)
 
 ## P0 bugs
 
