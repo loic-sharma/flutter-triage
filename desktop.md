@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
-* [Crashes](#crashes) - 12 open
-* [Popular issues](#popular-issues) - 467 open
+* [Crashes](#crashes) - 13 open
+* [Popular issues](#popular-issues) - 468 open
 * [Popular features requests](#popular-features-requests) - 109 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,12 +34,13 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [PlatformMenuItems with onSelectedIntent are never enabled](https://github.com/flutter/flutter/issues/121805)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#121805](https://github.com/flutter/flutter/issues/121805) opened on March 2, 2023 by [jmatth](https://api.github.com/users/jmatth)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121805)
 [[Desktop][a11y] Date selection from DatePicker (Calendar Control) not working when Voiceover is enabled](https://github.com/flutter/flutter/issues/121602)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#121602](https://github.com/flutter/flutter/issues/121602) opened on February 28, 2023 by [aakashawalkar](https://api.github.com/users/aakashawalkar)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/121602)
+[Basic Application project in flutter fails to run on Windows (it is not possible to open files *.cc)](https://github.com/flutter/flutter/issues/121366)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#121366](https://github.com/flutter/flutter/issues/121366) opened on February 23, 2023 by [leonardomgomes](https://api.github.com/users/leonardomgomes)</sub> | 💬 [12](https://github.com/flutter/flutter/issues/121366)
 
 ## P0 bugs
 
@@ -77,7 +78,7 @@ Name | Comments
 
 ## Crashes
 
-[12 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[13 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -96,7 +97,7 @@ Name | Comments
 
 ## Popular issues
 
-[467 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[468 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
