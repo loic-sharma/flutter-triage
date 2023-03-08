@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 5 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 469 open
+* [Popular issues](#popular-issues) - 470 open
 * [Popular features requests](#popular-features-requests) - 110 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,10 +34,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[Keyboard shortcut "control + tab" broken on macOS.](https://github.com/flutter/flutter/issues/122084)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122084](https://github.com/flutter/flutter/issues/122084) opened on March 7, 2023 by [fdennis](https://api.github.com/users/fdennis)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/122084)
 [Optimize search for the default App bundle on macOS](https://github.com/flutter/flutter/issues/122028)<br /><sub>[`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#122028](https://github.com/flutter/flutter/issues/122028) opened on March 6, 2023 by [jmagman](https://api.github.com/users/jmagman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/122028)
 [Clipboard.setData crashes the app](https://github.com/flutter/flutter/issues/121976)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`severe: fatal crash`](https://github.com/flutter/flutter/labels/severe%3A%20fatal%20crash), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#121976](https://github.com/flutter/flutter/issues/121976) opened on March 5, 2023 by [kirill-21](https://api.github.com/users/kirill-21)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/121976)
 [[Desktop][a11y] Date selection from DatePicker (Calendar Control) not working when Voiceover is enabled](https://github.com/flutter/flutter/issues/121602)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#121602](https://github.com/flutter/flutter/issues/121602) opened on February 28, 2023 by [aakashawalkar](https://api.github.com/users/aakashawalkar)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/121602)
@@ -98,7 +99,7 @@ Name | Comments
 
 ## Popular issues
 
-[469 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[470 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
