@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
-* [Framework pull requests](#framework-pull-requests) - 1 open
+* [Framework pull requests](#framework-pull-requests) - 0 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -29,11 +29,8 @@ Name | Comments
 
 ## Framework pull requests
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
-Name | Comments
--- | --
-[windows system proxy settings could access by invokeMethod](https://github.com/flutter/flutter/pull/122170)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#122170](https://github.com/flutter/flutter/pull/122170) opened on March 8, 2023 by [sherry0429](https://api.github.com/users/sherry0429)</sub> | 💬 [4](https://github.com/flutter/flutter/pull/122170)
 
 ## Bugs without priorities
 
