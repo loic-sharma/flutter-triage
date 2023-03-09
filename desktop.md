@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -34,11 +34,8 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
-Name | Comments
--- | --
-[[Desktop][a11y] Date selection from DatePicker (Calendar Control) not working when Voiceover is enabled](https://github.com/flutter/flutter/issues/121602)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#121602](https://github.com/flutter/flutter/issues/121602) opened on February 28, 2023 by [aakashawalkar](https://api.github.com/users/aakashawalkar)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/121602)
 
 ## P0 bugs
 
