@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -34,14 +34,13 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [[macOS][desktop]: Deleting emojis from textfield with obscured text causes crash](https://github.com/flutter/flutter/issues/122381)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`severe: fatal crash`](https://github.com/flutter/flutter/labels/severe%3A%20fatal%20crash), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122381](https://github.com/flutter/flutter/issues/122381) opened on March 10, 2023 by [AdamVe](https://api.github.com/users/AdamVe)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/122381)
 [[local_auth] [Windows] TextField does not accept any input after local authentication](https://github.com/flutter/flutter/issues/122322)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`p: local_auth`](https://github.com/flutter/flutter/labels/p%3A%20local_auth), [`package`](https://github.com/flutter/flutter/labels/package), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#122322](https://github.com/flutter/flutter/issues/122322) opened on March 9, 2023 by [emsaints](https://api.github.com/users/emsaints)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/122322)
 [MacBook Touch Bar shows TextField's obscured text as clear text](https://github.com/flutter/flutter/issues/122300)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122300](https://github.com/flutter/flutter/issues/122300) opened on March 9, 2023 by [AdamVe](https://api.github.com/users/AdamVe)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/122300)
-[UI creates shadow-like artifacts on macOS Desktop app w/ transparent background](https://github.com/flutter/flutter/issues/122133)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122133](https://github.com/flutter/flutter/issues/122133) opened on March 7, 2023 by [elincoln](https://api.github.com/users/elincoln)</sub> | 💬 [4](https://github.com/flutter/flutter/issues/122133)
 
 ## P0 bugs
 
