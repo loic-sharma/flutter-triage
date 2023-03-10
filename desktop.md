@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 8 open
-* [Crashes](#crashes) - 13 open
-* [Popular issues](#popular-issues) - 470 open
+* [Crashes](#crashes) - 14 open
+* [Popular issues](#popular-issues) - 471 open
 * [Popular features requests](#popular-features-requests) - 111 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,10 +34,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[[macOS][desktop]: Deleting emojis from textfield with obscured text causes crash](https://github.com/flutter/flutter/issues/122381)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`severe: fatal crash`](https://github.com/flutter/flutter/labels/severe%3A%20fatal%20crash), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122381](https://github.com/flutter/flutter/issues/122381) opened on March 10, 2023 by [AdamVe](https://api.github.com/users/AdamVe)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/122381)
 [[local_auth] [Windows] TextField does not accept any input after local authentication](https://github.com/flutter/flutter/issues/122322)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`p: local_auth`](https://github.com/flutter/flutter/labels/p%3A%20local_auth), [`package`](https://github.com/flutter/flutter/labels/package), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#122322](https://github.com/flutter/flutter/issues/122322) opened on March 9, 2023 by [emsaints](https://api.github.com/users/emsaints)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/122322)
 
 ## P0 bugs
@@ -77,7 +78,7 @@ Name | Comments
 
 ## Crashes
 
-[13 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[14 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -96,7 +97,7 @@ Name | Comments
 
 ## Popular issues
 
-[470 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[471 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
