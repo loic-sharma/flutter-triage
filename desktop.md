@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 5 open
 * [Framework pull requests](#framework-pull-requests) - 0 open
-* [Bugs without priorities](#bugs-without-priorities) - 6 open
+* [Bugs without priorities](#bugs-without-priorities) - 7 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -10,7 +10,7 @@ Triage queries:
 * [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 14 open
 * [Popular issues](#popular-issues) - 470 open
-* [Popular features requests](#popular-features-requests) - 111 open
+* [Popular features requests](#popular-features-requests) - 112 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -35,10 +35,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[7 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[DataTable: customizable mouse cursor](https://github.com/flutter/flutter/issues/123020)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse)<br />[#123020](https://github.com/flutter/flutter/issues/123020) opened on March 20, 2023 by [jpnurmi](https://api.github.com/users/jpnurmi)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/123020)
 [Insert key doesn't switch between overtype and insert modes in TextField](https://github.com/flutter/flutter/issues/122673)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122673](https://github.com/flutter/flutter/issues/122673) opened on March 15, 2023 by [yescorp](https://api.github.com/users/yescorp)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/122673)
 [Caret can fail to move on keyboard left/right arrow in Indic script](https://github.com/flutter/flutter/issues/122478)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#122478](https://github.com/flutter/flutter/issues/122478) opened on March 12, 2023 by [gnprice](https://api.github.com/users/gnprice)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/122478)
 [PageView tabs' children receive a focus (from the keyboard 'Tab' button) even if not visible.](https://github.com/flutter/flutter/issues/122442)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`f: focus`](https://github.com/flutter/flutter/labels/f%3A%20focus), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122442](https://github.com/flutter/flutter/issues/122442) opened on March 11, 2023 by [stanbav](https://api.github.com/users/stanbav)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/122442)
@@ -122,7 +123,7 @@ Name | Comments
 
 ## Popular features requests
 
-[111 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[112 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
