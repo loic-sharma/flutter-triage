@@ -45,7 +45,7 @@ Name | Comments
 
 Name | Comments
 -- | --
-[Fonts are rendered with inconsistent anti-aliasing](https://github.com/flutter/flutter/issues/123345)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#123345](https://github.com/flutter/flutter/issues/123345) opened on March 23, 2023 by [larsb24](https://api.github.com/users/larsb24)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/123345)
+[Fonts are rendered with inconsistent anti-aliasing](https://github.com/flutter/flutter/issues/123345)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#123345](https://github.com/flutter/flutter/issues/123345) opened on March 23, 2023 by [larsb24](https://api.github.com/users/larsb24)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/123345)
 
 ## P0 bugs
 
