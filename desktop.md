@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 7 open
+* [Engine pull requests](#engine-pull-requests) - 6 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,7 +18,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[7 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[6 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
@@ -28,7 +28,6 @@ Name | Comments
 [[Linux] fix: make textures thread-safe on linux](https://github.com/flutter/engine/pull/40478)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-linux`](https://github.com/flutter/engine/labels/platform-linux), [`needs tests`](https://github.com/flutter/engine/labels/needs%20tests)<br />[#40478](https://github.com/flutter/engine/pull/40478) opened on March 21, 2023 by [Kingtous](https://api.github.com/users/Kingtous)</sub> | 💬 [1](https://github.com/flutter/engine/pull/40478)
 [[macOS] Change view ID to signed](https://github.com/flutter/engine/pull/39958)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#39958](https://github.com/flutter/engine/pull/39958) opened on February 28, 2023 by [dkwingsmt](https://api.github.com/users/dkwingsmt)</sub> | 💬 [2](https://github.com/flutter/engine/pull/39958)
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [15](https://github.com/flutter/engine/pull/37421)
-[Update ICU dependency to updated build](https://github.com/flutter/engine/pull/40676)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens), [`dependencies`](https://github.com/flutter/engine/labels/dependencies)<br />[#40676](https://github.com/flutter/engine/pull/40676) opened on March 27, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [2](https://github.com/flutter/engine/pull/40676)
 
 ## Framework pull requests
 
