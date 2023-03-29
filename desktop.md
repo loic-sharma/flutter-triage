@@ -7,9 +7,9 @@ Triage queries:
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 0 open
-* [Regressions](#regressions) - 8 open
+* [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 15 open
-* [Popular issues](#popular-issues) - 468 open
+* [Popular issues](#popular-issues) - 469 open
 * [Popular features requests](#popular-features-requests) - 112 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -67,7 +67,7 @@ Name | Comments
 
 ## Regressions
 
-[8 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
+[9 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+regression%22).
 
 Name | Comments
 -- | --
@@ -79,6 +79,7 @@ Name | Comments
 [Running macOS tests with flutter drive (or integration_test) fails in a CI environment, on Intel based Mac machines](https://github.com/flutter/flutter/issues/118469)<br /><sub>[`a: tests`](https://github.com/flutter/flutter/labels/a%3A%20tests), [`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7)<br />[#118469](https://github.com/flutter/flutter/issues/118469) opened on January 13, 2023 by [desistefanova](https://api.github.com/users/desistefanova)</sub> | 💬 [24](https://github.com/flutter/flutter/issues/118469)
 [[Desktop] RefreshIndicator can not be dragged to its full extent](https://github.com/flutter/flutter/issues/119702)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.8`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.8)<br />[#119702](https://github.com/flutter/flutter/issues/119702) opened on February 1, 2023 by [Mahm0ud-Ahmed](https://api.github.com/users/Mahm0ud-Ahmed)</sub> | 💬 [10](https://github.com/flutter/flutter/issues/119702)
 [Can't select text on desktop with `PointerDeviceKind.mouse` on `dragDevices`](https://github.com/flutter/flutter/issues/122519)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: scrolling`](https://github.com/flutter/flutter/labels/f%3A%20scrolling), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#122519](https://github.com/flutter/flutter/issues/122519) opened on March 13, 2023 by [talski](https://api.github.com/users/talski)</sub> | 💬 [19](https://github.com/flutter/flutter/issues/122519)
+[[engine] When Windows app handles WM_CLOSE, requestAppExit doesn't do the right thing.](https://github.com/flutter/flutter/issues/123654)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: google`](https://github.com/flutter/flutter/labels/customer%3A%20google), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P3`](https://github.com/flutter/flutter/labels/P3)<br />[#123654](https://github.com/flutter/flutter/issues/123654) opened on March 29, 2023 by [gspencergoog](https://api.github.com/users/gspencergoog)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/123654)
 
 ## Crashes
 
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[468 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[469 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
