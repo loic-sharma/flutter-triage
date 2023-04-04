@@ -6,10 +6,10 @@ Triage queries:
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
-* [Flakes](#flakes) - 0 open
+* [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 10 open
 * [Crashes](#crashes) - 15 open
-* [Popular issues](#popular-issues) - 470 open
+* [Popular issues](#popular-issues) - 471 open
 * [Popular features requests](#popular-features-requests) - 159 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -62,8 +62,11 @@ Name | Comments
 
 ## Flakes
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22team%3A+flakes%22).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22team%3A+flakes%22).
 
+Name | Comments
+-- | --
+[FlutterWindowsEngineTest.TestExit is very flaky](https://github.com/flutter/flutter/issues/124162)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P3`](https://github.com/flutter/flutter/labels/P3)<br />[#124162](https://github.com/flutter/flutter/issues/124162) opened on April 4, 2023 by [jonahwilliams](https://api.github.com/users/jonahwilliams)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/124162)
 
 ## Regressions
 
@@ -103,7 +106,7 @@ Name | Comments
 
 ## Popular issues
 
-[470 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[471 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
