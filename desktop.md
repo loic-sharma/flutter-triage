@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 5 open
+* [Engine pull requests](#engine-pull-requests) - 6 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 0 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,7 +18,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[5 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[6 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
@@ -27,6 +27,7 @@ Name | Comments
 [[Windows] Ignore case optionally in `AXPlatformNodeTextRangeProviderWin::FindText`](https://github.com/flutter/engine/pull/39922)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#39922](https://github.com/flutter/engine/pull/39922) opened on February 27, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [3](https://github.com/flutter/engine/pull/39922)
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [19](https://github.com/flutter/engine/pull/37421)
 [Fix flaky Windows exit unit test, remove error messages](https://github.com/flutter/engine/pull/40945)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#40945](https://github.com/flutter/engine/pull/40945) opened on April 5, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/40945)
+[Skip presenting software bitmap when window handle is invalid](https://github.com/flutter/engine/pull/40971)<br /><sub>[`crash`](https://github.com/flutter/engine/labels/crash), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#40971](https://github.com/flutter/engine/pull/40971) opened on April 6, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/40971)
 
 ## Framework pull requests
 
