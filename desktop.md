@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 5 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 2 open
+* [Bugs without priorities](#bugs-without-priorities) - 3 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -10,7 +10,7 @@ Triage queries:
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 15 open
 * [Popular issues](#popular-issues) - 467 open
-* [Popular features requests](#popular-features-requests) - 159 open
+* [Popular features requests](#popular-features-requests) - 160 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -38,10 +38,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[musl support for flutter](https://github.com/flutter/flutter/issues/124285)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`tool`](https://github.com/flutter/flutter/labels/tool), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124285](https://github.com/flutter/flutter/issues/124285) opened on April 5, 2023 by [selfisekai](https://api.github.com/users/selfisekai)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/124285)
 [Clicking the "Close" button on the upper right corner of the Flutter Windows desktop cannot close or exit the app](https://github.com/flutter/flutter/issues/123761)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`needs repro info`](https://github.com/flutter/flutter/labels/needs%20repro%20info)<br />[#123761](https://github.com/flutter/flutter/issues/123761) opened on March 30, 2023 by [xiaorui-23](https://api.github.com/users/xiaorui-23)</sub> | 💬 [17](https://github.com/flutter/flutter/issues/123761)
 [[Windows] The cursor can not be moved by left/right keys when using Pinyin input method](https://github.com/flutter/flutter/issues/123749)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`engine`](https://github.com/flutter/flutter/labels/engine), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#123749](https://github.com/flutter/flutter/issues/123749) opened on March 30, 2023 by [jzhgithub18](https://api.github.com/users/jzhgithub18)</sub> | 💬 [13](https://github.com/flutter/flutter/issues/123749)
 
@@ -123,7 +124,7 @@ Name | Comments
 
 ## Popular features requests
 
-[159 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[160 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
