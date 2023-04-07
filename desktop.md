@@ -1,15 +1,15 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 6 open
+* [Engine pull requests](#engine-pull-requests) - 5 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
-* [Flakes](#flakes) - 1 open
+* [Flakes](#flakes) - 0 open
 * [Regressions](#regressions) - 9 open
 * [Crashes](#crashes) - 15 open
-* [Popular issues](#popular-issues) - 468 open
+* [Popular issues](#popular-issues) - 467 open
 * [Popular features requests](#popular-features-requests) - 160 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -18,7 +18,7 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[6 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[5 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
@@ -27,7 +27,6 @@ Name | Comments
 [[Windows] Ignore case optionally in `AXPlatformNodeTextRangeProviderWin::FindText`](https://github.com/flutter/engine/pull/39922)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#39922](https://github.com/flutter/engine/pull/39922) opened on February 27, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [3](https://github.com/flutter/engine/pull/39922)
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [19](https://github.com/flutter/engine/pull/37421)
 [Skip presenting software bitmap when window handle is invalid](https://github.com/flutter/engine/pull/40971)<br /><sub>[`crash`](https://github.com/flutter/engine/labels/crash), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#40971](https://github.com/flutter/engine/pull/40971) opened on April 6, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [3](https://github.com/flutter/engine/pull/40971)
-[Fix flaky Windows exit unit test, remove error messages](https://github.com/flutter/engine/pull/40945)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#40945](https://github.com/flutter/engine/pull/40945) opened on April 5, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [3](https://github.com/flutter/engine/pull/40945)
 
 ## Framework pull requests
 
@@ -63,11 +62,8 @@ Name | Comments
 
 ## Flakes
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22team%3A+flakes%22).
+[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22team%3A+flakes%22).
 
-Name | Comments
--- | --
-[FlutterWindowsEngineTest.TestExit is very flaky](https://github.com/flutter/flutter/issues/124162)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P3`](https://github.com/flutter/flutter/labels/P3)<br />[#124162](https://github.com/flutter/flutter/issues/124162) opened on April 4, 2023 by [jonahwilliams](https://api.github.com/users/jonahwilliams)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/124162)
 
 ## Regressions
 
@@ -106,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[468 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[467 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
