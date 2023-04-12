@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 5 open
+* [Bugs without priorities](#bugs-without-priorities) - 6 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
-* [Flakes](#flakes) - 0 open
+* [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 7 open
 * [Crashes](#crashes) - 16 open
-* [Popular issues](#popular-issues) - 469 open
+* [Popular issues](#popular-issues) - 470 open
 * [Popular features requests](#popular-features-requests) - 160 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,10 +37,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[FlutterEngineTest.CanOverrideBackgroundColor from flutter_desktop_darwin_unittests is flakey](https://github.com/flutter/flutter/issues/124677)<br /><sub>[`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124677](https://github.com/flutter/flutter/issues/124677) opened on April 12, 2023 by [zanderso](https://api.github.com/users/zanderso)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124677)
 [[Windows] MouseRegion cursor in Draggable feedback does not work properly.](https://github.com/flutter/flutter/issues/124579)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#124579](https://github.com/flutter/flutter/issues/124579) opened on April 11, 2023 by [Tamilarasan-Paranthaman](https://api.github.com/users/Tamilarasan-Paranthaman)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124579)
 [[macOS][platform_view] Click event was not dispatched to PlatformView](https://github.com/flutter/flutter/issues/124492)<br /><sub>[`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: platform-views`](https://github.com/flutter/flutter/labels/a%3A%20platform-views), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#124492](https://github.com/flutter/flutter/issues/124492) opened on April 10, 2023 by [0xZOne](https://api.github.com/users/0xZOne)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/124492)
 [[Windows] Shutdown engine before destroying the view](https://github.com/flutter/flutter/issues/124463)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124463](https://github.com/flutter/flutter/issues/124463) opened on April 8, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/124463)
@@ -64,8 +65,11 @@ Name | Comments
 
 ## Flakes
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22team%3A+flakes%22).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22team%3A+flakes%22).
 
+Name | Comments
+-- | --
+[FlutterEngineTest.CanOverrideBackgroundColor from flutter_desktop_darwin_unittests is flakey](https://github.com/flutter/flutter/issues/124677)<br /><sub>[`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124677](https://github.com/flutter/flutter/issues/124677) opened on April 12, 2023 by [zanderso](https://api.github.com/users/zanderso)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124677)
 
 ## Regressions
 
@@ -102,7 +106,7 @@ Name | Comments
 
 ## Popular issues
 
-[469 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[470 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
