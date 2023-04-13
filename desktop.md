@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 3 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 6 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -36,16 +36,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[FlutterEngineTest.CanOverrideBackgroundColor from flutter_desktop_darwin_unittests is flakey](https://github.com/flutter/flutter/issues/124677)<br /><sub>[`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124677](https://github.com/flutter/flutter/issues/124677) opened on April 12, 2023 by [zanderso](https://api.github.com/users/zanderso)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124677)
-[[Windows] MouseRegion cursor in Draggable feedback does not work properly.](https://github.com/flutter/flutter/issues/124579)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#124579](https://github.com/flutter/flutter/issues/124579) opened on April 11, 2023 by [Tamilarasan-Paranthaman](https://api.github.com/users/Tamilarasan-Paranthaman)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124579)
-[[macOS][platform_view] Click event was not dispatched to PlatformView](https://github.com/flutter/flutter/issues/124492)<br /><sub>[`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: platform-views`](https://github.com/flutter/flutter/labels/a%3A%20platform-views), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#124492](https://github.com/flutter/flutter/issues/124492) opened on April 10, 2023 by [0xZOne](https://api.github.com/users/0xZOne)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/124492)
-[[Windows] Shutdown engine before destroying the view](https://github.com/flutter/flutter/issues/124463)<br /><sub>[`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124463](https://github.com/flutter/flutter/issues/124463) opened on April 8, 2023 by [loic-sharma](https://api.github.com/users/loic-sharma)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/124463)
 [Selection cursor over WidgetSpan](https://github.com/flutter/flutter/issues/124384)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: mouse`](https://github.com/flutter/flutter/labels/a%3A%20mouse), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#124384](https://github.com/flutter/flutter/issues/124384) opened on April 7, 2023 by [krida2000](https://api.github.com/users/krida2000)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124384)
-[App freezes when GPU is disabled while the app is running](https://github.com/flutter/flutter/issues/124194)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.9`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.9)<br />[#124194](https://github.com/flutter/flutter/issues/124194) opened on April 5, 2023 by [temirlanzhangazy](https://api.github.com/users/temirlanzhangazy)</sub> | 💬 [12](https://github.com/flutter/flutter/issues/124194)
 
 ## P0 bugs
 
@@ -68,7 +63,7 @@ Name | Comments
 
 Name | Comments
 -- | --
-[FlutterEngineTest.CanOverrideBackgroundColor from flutter_desktop_darwin_unittests is flakey](https://github.com/flutter/flutter/issues/124677)<br /><sub>[`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124677](https://github.com/flutter/flutter/issues/124677) opened on April 12, 2023 by [zanderso](https://api.github.com/users/zanderso)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124677)
+[FlutterEngineTest.CanOverrideBackgroundColor from flutter_desktop_darwin_unittests is flakey](https://github.com/flutter/flutter/issues/124677)<br /><sub>[`team: flakes`](https://github.com/flutter/flutter/labels/team%3A%20flakes), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#124677](https://github.com/flutter/flutter/issues/124677) opened on April 12, 2023 by [zanderso](https://api.github.com/users/zanderso)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124677)
 
 ## Regressions
 
