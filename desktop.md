@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 3 open
+* [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,13 +18,14 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[3 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[4 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
 [Add vsync support to Linux shell](https://github.com/flutter/engine/pull/39785)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-linux`](https://github.com/flutter/engine/labels/platform-linux), [`needs tests`](https://github.com/flutter/engine/labels/needs%20tests)<br />[#39785](https://github.com/flutter/engine/pull/39785) opened on February 22, 2023 by [robert-ancell](https://api.github.com/users/robert-ancell)</sub> | 💬 [5](https://github.com/flutter/engine/pull/39785)
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [20](https://github.com/flutter/engine/pull/37421)
+[[macOS] Fix Ctrl+Tab is broken](https://github.com/flutter/engine/pull/40706)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos)<br />[#40706](https://github.com/flutter/engine/pull/40706) opened on March 28, 2023 by [bleroux](https://api.github.com/users/bleroux)</sub> | 💬 [2](https://github.com/flutter/engine/pull/40706)
 
 ## Framework pull requests
 
