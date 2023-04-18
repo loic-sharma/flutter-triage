@@ -1,6 +1,6 @@
 # Flutter desktop triage
 Triage queries:
-* [Engine pull requests](#engine-pull-requests) - 3 open
+* [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
 * [Bugs without priorities](#bugs-without-priorities) - 6 open
 * [P0 bugs](#p0-bugs) - 0 open
@@ -18,13 +18,14 @@ If you come across a bug that is unrelated to desktop app development, remove th
 
 ## Engine pull requests
 
-[3 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
+[4 open](https://github.com/flutter/engine/issues?q=is%3Aopen+is%3Apr+label%3A%22affects%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Enabling pre-push checks on Windows](https://github.com/flutter/engine/pull/36123)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#36123](https://github.com/flutter/engine/pull/36123) opened on September 13, 2022 by [mtolmacs](https://api.github.com/users/mtolmacs)</sub> | 💬 [13](https://github.com/flutter/engine/pull/36123)
 [Add vsync support to Linux shell](https://github.com/flutter/engine/pull/39785)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-linux`](https://github.com/flutter/engine/labels/platform-linux), [`needs tests`](https://github.com/flutter/engine/labels/needs%20tests)<br />[#39785](https://github.com/flutter/engine/pull/39785) opened on February 22, 2023 by [robert-ancell](https://api.github.com/users/robert-ancell)</sub> | 💬 [5](https://github.com/flutter/engine/pull/39785)
 [[macOS] Add lookupKeyForAsset to FlutterPluginRegistrar](https://github.com/flutter/engine/pull/37421)<br /><sub>[`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-macos`](https://github.com/flutter/engine/labels/platform-macos), [`will affect goldens`](https://github.com/flutter/engine/labels/will%20affect%20goldens)<br />[#37421](https://github.com/flutter/engine/pull/37421) opened on November 8, 2022 by [zhongwuzw](https://api.github.com/users/zhongwuzw)</sub> | 💬 [20](https://github.com/flutter/engine/pull/37421)
+[Move ownership of `AccessibilityBridgeWindows` to `FlutterWindowsView`](https://github.com/flutter/engine/pull/41308)<br /><sub>[`accessibility`](https://github.com/flutter/engine/labels/accessibility), [`affects: desktop`](https://github.com/flutter/engine/labels/affects%3A%20desktop), [`platform-windows`](https://github.com/flutter/engine/labels/platform-windows)<br />[#41308](https://github.com/flutter/engine/pull/41308) opened on April 18, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/engine/pull/41308)
 
 ## Framework pull requests
 
