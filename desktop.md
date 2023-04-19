@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 4 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 5 open
+* [Bugs without priorities](#bugs-without-priorities) - 6 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 10 open
 * [Crashes](#crashes) - 18 open
-* [Popular issues](#popular-issues) - 476 open
+* [Popular issues](#popular-issues) - 477 open
 * [Popular features requests](#popular-features-requests) - 160 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -37,12 +37,13 @@ Name | Comments
 
 ## Bugs without priorities
 
-[5 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[6 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [[Regression][macOS]: UI displays blank screen on the latest master channel](https://github.com/flutter/flutter/issues/125025)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: debugging`](https://github.com/flutter/flutter/labels/a%3A%20debugging), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#125025](https://github.com/flutter/flutter/issues/125025) opened on April 18, 2023 by [huycozy](https://api.github.com/users/huycozy)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/125025)
 [Move ownership of AccessibilityBridge from FlutterWindowsEngine to FlutterWindowsView](https://github.com/flutter/flutter/issues/124995)<br /><sub>[`a: accessibility`](https://github.com/flutter/flutter/labels/a%3A%20accessibility), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: multi window`](https://github.com/flutter/flutter/labels/a%3A%20multi%20window)<br />[#124995](https://github.com/flutter/flutter/issues/124995) opened on April 17, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/124995)
+[macOS : updateEditingValue is not getting called upon typing Chinese or Non-English language.](https://github.com/flutter/flutter/issues/124966)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: internationalization`](https://github.com/flutter/flutter/labels/a%3A%20internationalization), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#124966](https://github.com/flutter/flutter/issues/124966) opened on April 17, 2023 by [jzhgithub18](https://api.github.com/users/jzhgithub18)</sub> | 💬 [7](https://github.com/flutter/flutter/issues/124966)
 [Flutter Framework size regression](https://github.com/flutter/flutter/issues/124891)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#124891](https://github.com/flutter/flutter/issues/124891) opened on April 14, 2023 by [eyebrowsoffire](https://api.github.com/users/eyebrowsoffire)</sub> | 💬 [3](https://github.com/flutter/flutter/issues/124891)
 [DropdownMenu crash if resize the window during the menu opening](https://github.com/flutter/flutter/issues/124854)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`framework`](https://github.com/flutter/flutter/labels/framework), [`f: material design`](https://github.com/flutter/flutter/labels/f%3A%20material%20design), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#124854](https://github.com/flutter/flutter/issues/124854) opened on April 14, 2023 by [xu-baolin](https://api.github.com/users/xu-baolin)</sub> | 💬 [1](https://github.com/flutter/flutter/issues/124854)
 [On macOS, crash calling FlutterViewController.init(FlutterDartProject)](https://github.com/flutter/flutter/issues/124829)<br /><sub>[`severe: regression`](https://github.com/flutter/flutter/labels/severe%3A%20regression), [`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: existing-apps`](https://github.com/flutter/flutter/labels/a%3A%20existing-apps), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#124829](https://github.com/flutter/flutter/issues/124829) opened on April 14, 2023 by [fertrig](https://api.github.com/users/fertrig)</sub> | 💬 [7](https://github.com/flutter/flutter/issues/124829)
@@ -108,7 +109,7 @@ Name | Comments
 
 ## Popular issues
 
-[476 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[477 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
