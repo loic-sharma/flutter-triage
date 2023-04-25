@@ -1,7 +1,7 @@
 # Flutter desktop triage
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 3 open
-* [Framework pull requests](#framework-pull-requests) - 1 open
+* [Framework pull requests](#framework-pull-requests) - 2 open
 * [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
@@ -28,11 +28,12 @@ Name | Comments
 
 ## Framework pull requests
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Apr+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc).
 
 Name | Comments
 -- | --
 [Add an example showing how to use textures](https://github.com/flutter/flutter/pull/122779)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#122779](https://github.com/flutter/flutter/pull/122779) opened on March 16, 2023 by [robert-ancell](https://api.github.com/users/robert-ancell)</sub> | 💬 [9](https://github.com/flutter/flutter/pull/122779)
+[Opt into CMake policy CMP0135](https://github.com/flutter/flutter/pull/125502)<br /><sub>[`tool`](https://github.com/flutter/flutter/labels/tool), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: build`](https://github.com/flutter/flutter/labels/a%3A%20build)<br />[#125502](https://github.com/flutter/flutter/pull/125502) opened on April 25, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [0](https://github.com/flutter/flutter/pull/125502)
 
 ## Bugs without priorities
 
