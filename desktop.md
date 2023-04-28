@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 8 open
-* [Crashes](#crashes) - 18 open
-* [Popular issues](#popular-issues) - 475 open
+* [Crashes](#crashes) - 19 open
+* [Popular issues](#popular-issues) - 476 open
 * [Popular features requests](#popular-features-requests) - 161 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -36,11 +36,12 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
 [Shader compilation error: MTLLibraryErrorDomain code=3: fatal error simd.h not found](https://github.com/flutter/flutter/issues/125564)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#125564](https://github.com/flutter/flutter/issues/125564) opened on April 26, 2023 by [jekoehler](https://api.github.com/users/jekoehler)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/125564)
+[Compile error for Windows Desktop app](https://github.com/flutter/flutter/issues/125562)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`needs repro info`](https://github.com/flutter/flutter/labels/needs%20repro%20info)<br />[#125562](https://github.com/flutter/flutter/issues/125562) opened on April 26, 2023 by [jobypthomas](https://api.github.com/users/jobypthomas)</sub> | 💬 [8](https://github.com/flutter/flutter/issues/125562)
 
 ## P0 bugs
 
@@ -82,7 +83,7 @@ Name | Comments
 
 ## Crashes
 
-[18 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
+[19 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Aupdated-asc+label%3A%22severe%3A+crash%22).
 
 Name | Comments
 -- | --
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[475 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[476 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
