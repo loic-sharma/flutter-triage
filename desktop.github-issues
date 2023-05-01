@@ -1,0 +1,112 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "# Flutter desktop triage\r\n\r\nTriage queries:\r\n* [Engine pull requests](#engine-pull-requests)\r\n* [Framework pull requests](#framework-pull-requests)\r\n* [Bugs without priorities](#bugs-without-priorities)\r\n* [P0 bugs](#p0-bugs)\r\n* [P1 bugs](#p1-bugs)\r\n* [P2 bugs](#p2-bugs)\r\n* [Flakes](#flakes)\r\n* [Regressions](#regressions)\r\n* [Crashes](#crashes)\r\n* [Popular issues](#popular-issues)\r\n* [Popular feature requests](#popular-feature-requests)\r\n\r\nIf you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.\r\n\r\n[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#desktop)."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$flutter=repo:flutter/flutter\r\n$engine=repo:flutter/engine\r\n$issues=$flutter is:open is:issue label:\"a: desktop\""
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Engine pull requests"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$engine is:open is:pr label:\"affects: desktop\" sort:updated-asc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Framework pull requests"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$flutter is:open is:pr label:\"a: desktop\" sort:updated-asc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Bugs without priorities"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$issues -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:p5 -label:p6"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P1 bugs"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$issues label:\"P1\""
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P2 bugs"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$issues label:\"P2\""
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Flakes"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$issues label:\"team: flakes\" sort:updated-asc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Regressions"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$issues label:\"severe: regression\" sort:updated-asc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Crashes"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$issues label:\"severe: regression\" sort:updated-asc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Popular issues"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "$issues -label:\"new feature\" -label:\"severe: new feature\" sort:reactions-+1-desc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Popular feature requests"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "is:open is:issue label:\"a: desktop\" sort:reactions-+1-desc label:\"new feature\""
+  }
+]
