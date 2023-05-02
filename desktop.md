@@ -2,7 +2,7 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 1 open
+* [Bugs without priorities](#bugs-without-priorities) - 2 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
@@ -10,7 +10,7 @@ Triage queries:
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 18 open
 * [Popular issues](#popular-issues) - 477 open
-* [Popular features requests](#popular-features-requests) - 162 open
+* [Popular features requests](#popular-features-requests) - 163 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
 
@@ -35,10 +35,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[2 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[need setSystemUiOverlayStyleCallback method for SystemChrome class for keep desktop specific widgets in sync.](https://github.com/flutter/flutter/issues/125798)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`in triage`](https://github.com/flutter/flutter/labels/in%20triage)<br />[#125798](https://github.com/flutter/flutter/issues/125798) opened on May 1, 2023 by [Ali-Fadaei](https://api.github.com/users/Ali-Fadaei)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/125798)
 [Shader compilation error: MTLLibraryErrorDomain code=3: fatal error simd.h not found](https://github.com/flutter/flutter/issues/125564)<br /><sub>[`severe: crash`](https://github.com/flutter/flutter/labels/severe%3A%20crash), [`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`will need additional triage`](https://github.com/flutter/flutter/labels/will%20need%20additional%20triage), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#125564](https://github.com/flutter/flutter/issues/125564) opened on April 26, 2023 by [jekoehler](https://api.github.com/users/jekoehler)</sub> | 💬 [7](https://github.com/flutter/flutter/issues/125564)
 
 ## P0 bugs
@@ -119,7 +120,7 @@ Name | Comments
 
 ## Popular features requests
 
-[162 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
+[163 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+label%3A%22new+feature%22).
 
 Name | Comments
 -- | --
