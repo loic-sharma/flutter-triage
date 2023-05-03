@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 1 open
 * [Framework pull requests](#framework-pull-requests) - 1 open
-* [Bugs without priorities](#bugs-without-priorities) - 3 open
+* [Bugs without priorities](#bugs-without-priorities) - 4 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 0 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 17 open
-* [Popular issues](#popular-issues) - 478 open
+* [Popular issues](#popular-issues) - 479 open
 * [Popular features requests](#popular-features-requests) - 163 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -34,10 +34,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[3 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
+[Unexpected new line added after pressed Enter when using multi-line TextField with TextInputAction.send](https://github.com/flutter/flutter/issues/125879)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#125879](https://github.com/flutter/flutter/issues/125879) opened on May 2, 2023 by [simonpham](https://api.github.com/users/simonpham)</sub> | 💬 [2](https://github.com/flutter/flutter/issues/125879)
 [RenderView's "_updateSystemChrome" method never sets systemChrome system ui overlay style in desktop app with custom title-bar](https://github.com/flutter/flutter/issues/125830)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: layout`](https://github.com/flutter/flutter/labels/a%3A%20layout)<br />[#125830](https://github.com/flutter/flutter/issues/125830) opened on May 1, 2023 by [Ali-Fadaei](https://api.github.com/users/Ali-Fadaei)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/125830)
 [Can't get codelabs/firebase-get-to-know-flutter to work on macos](https://github.com/flutter/flutter/issues/125828)<br /><sub>[`d: codelabs`](https://github.com/flutter/flutter/labels/d%3A%20codelabs), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`p: firebase`](https://github.com/flutter/flutter/labels/p%3A%20firebase), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#125828](https://github.com/flutter/flutter/issues/125828) opened on May 1, 2023 by [martinlwtzky](https://api.github.com/users/martinlwtzky)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/125828)
 [need setSystemUiOverlayStyleCallback method for SystemChrome class for keep desktop specific widgets in sync.](https://github.com/flutter/flutter/issues/125798)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: layout`](https://github.com/flutter/flutter/labels/a%3A%20layout)<br />[#125798](https://github.com/flutter/flutter/issues/125798) opened on May 1, 2023 by [Ali-Fadaei](https://api.github.com/users/Ali-Fadaei)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/125798)
@@ -101,7 +102,7 @@ Name | Comments
 
 ## Popular issues
 
-[478 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[479 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
