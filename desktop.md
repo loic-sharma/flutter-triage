@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 4 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 17 open
-* [Popular issues](#popular-issues) - 480 open
+* [Popular issues](#popular-issues) - 479 open
 * [Popular features requests](#popular-features-requests) - 163 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -36,14 +36,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[4 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
 Name | Comments
 -- | --
-[Unexpected new line added after pressed Enter when using multi-line TextField with TextInputAction.send](https://github.com/flutter/flutter/issues/125879)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`found in release: 3.7`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.7), [`found in release: 3.10`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%203.10)<br />[#125879](https://github.com/flutter/flutter/issues/125879) opened on May 2, 2023 by [simonpham](https://api.github.com/users/simonpham)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/125879)
 [RenderView's "_updateSystemChrome" method never sets systemChrome system ui overlay style in desktop app with custom title-bar](https://github.com/flutter/flutter/issues/125830)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: layout`](https://github.com/flutter/flutter/labels/a%3A%20layout)<br />[#125830](https://github.com/flutter/flutter/issues/125830) opened on May 1, 2023 by [Ali-Fadaei](https://api.github.com/users/Ali-Fadaei)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/125830)
-[Can't get codelabs/firebase-get-to-know-flutter to work on macos](https://github.com/flutter/flutter/issues/125828)<br /><sub>[`d: codelabs`](https://github.com/flutter/flutter/labels/d%3A%20codelabs), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`p: firebase`](https://github.com/flutter/flutter/labels/p%3A%20firebase), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`documentation`](https://github.com/flutter/flutter/labels/documentation)<br />[#125828](https://github.com/flutter/flutter/issues/125828) opened on May 1, 2023 by [martinlwtzky](https://api.github.com/users/martinlwtzky)</sub> | 💬 [6](https://github.com/flutter/flutter/issues/125828)
-[need setSystemUiOverlayStyleCallback method for SystemChrome class for keep desktop specific widgets in sync.](https://github.com/flutter/flutter/issues/125798)<br /><sub>[`new feature`](https://github.com/flutter/flutter/labels/new%20feature), [`framework`](https://github.com/flutter/flutter/labels/framework), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: layout`](https://github.com/flutter/flutter/labels/a%3A%20layout)<br />[#125798](https://github.com/flutter/flutter/issues/125798) opened on May 1, 2023 by [Ali-Fadaei](https://api.github.com/users/Ali-Fadaei)</sub> | 💬 [0](https://github.com/flutter/flutter/issues/125798)
 
 ## P0 bugs
 
@@ -107,7 +104,7 @@ Name | Comments
 
 ## Popular issues
 
-[480 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[479 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
@@ -120,7 +117,7 @@ Name | Comments
 [[camera] Add Linux support](https://github.com/flutter/flutter/issues/41710)<br /><sub>[`plugin`](https://github.com/flutter/flutter/labels/plugin), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`p: camera`](https://github.com/flutter/flutter/labels/p%3A%20camera), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P5`](https://github.com/flutter/flutter/labels/P5)<br />[#41710](https://github.com/flutter/flutter/issues/41710) opened on October 1, 2019 by [stuartmorgan](https://api.github.com/users/stuartmorgan)</sub> | 💬 [16](https://github.com/flutter/flutter/issues/41710)
 [☂️ Proposal: desktop context menu fidelity](https://github.com/flutter/flutter/issues/74255)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`a: fidelity`](https://github.com/flutter/flutter/labels/a%3A%20fidelity), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`proposal`](https://github.com/flutter/flutter/labels/proposal), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`passed first triage`](https://github.com/flutter/flutter/labels/passed%20first%20triage), [`P5`](https://github.com/flutter/flutter/labels/P5)<br />[#74255](https://github.com/flutter/flutter/issues/74255) opened on January 19, 2021 by [justinmc](https://api.github.com/users/justinmc)</sub> | 💬 [21](https://github.com/flutter/flutter/issues/74255)
 [Flutter Fonts are not rendering correctly, Antialiasing is doubled on desktop](https://github.com/flutter/flutter/issues/67034)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: typography`](https://github.com/flutter/flutter/labels/a%3A%20typography), [`f: inspector`](https://github.com/flutter/flutter/labels/f%3A%20inspector), [`platform-web`](https://github.com/flutter/flutter/labels/platform-web), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`severe: rendering`](https://github.com/flutter/flutter/labels/severe%3A%20rendering), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`has reproducible steps`](https://github.com/flutter/flutter/labels/has%20reproducible%20steps), [`P4`](https://github.com/flutter/flutter/labels/P4), [`found in release: 1.22`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%201.22), [`found in release: 2.0`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.0), [`found in release: 2.3`](https://github.com/flutter/flutter/labels/found%20in%20release%3A%202.3), [`customer: arias`](https://github.com/flutter/flutter/labels/customer%3A%20arias)<br />[#67034](https://github.com/flutter/flutter/issues/67034) opened on October 1, 2020 by [SuperGNUS](https://api.github.com/users/SuperGNUS)</sub> | 💬 [17](https://github.com/flutter/flutter/issues/67034)
-[[camera] Add macOS support](https://github.com/flutter/flutter/issues/41708)<br /><sub>[`plugin`](https://github.com/flutter/flutter/labels/plugin), [`platform-mac`](https://github.com/flutter/flutter/labels/platform-mac), [`p: camera`](https://github.com/flutter/flutter/labels/p%3A%20camera), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`P5`](https://github.com/flutter/flutter/labels/P5)<br />[#41708](https://github.com/flutter/flutter/issues/41708) opened on October 1, 2019 by [stuartmorgan](https://api.github.com/users/stuartmorgan)</sub> | 💬 [14](https://github.com/flutter/flutter/issues/41708)
+[A KeyRepeatEvent is dispatched, but the state shows that the physical key is not pressed](https://github.com/flutter/flutter/issues/107972)<br /><sub>[`a: text input`](https://github.com/flutter/flutter/labels/a%3A%20text%20input), [`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`customer: crowd`](https://github.com/flutter/flutter/labels/customer%3A%20crowd), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: error message`](https://github.com/flutter/flutter/labels/a%3A%20error%20message), [`P4`](https://github.com/flutter/flutter/labels/P4)<br />[#107972](https://github.com/flutter/flutter/issues/107972) opened on July 19, 2022 by [scaphe](https://api.github.com/users/scaphe)</sub> | 💬 [51](https://github.com/flutter/flutter/issues/107972)
 
 [See more...](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22)
 
