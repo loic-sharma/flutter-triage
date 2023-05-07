@@ -2,14 +2,14 @@
 Triage queries:
 * [Engine pull requests](#engine-pull-requests) - 2 open
 * [Framework pull requests](#framework-pull-requests) - 2 open
-* [Bugs without priorities](#bugs-without-priorities) - 0 open
+* [Bugs without priorities](#bugs-without-priorities) - 1 open
 * [P0 bugs](#p0-bugs) - 0 open
 * [P1 bugs](#p1-bugs) - 0 open
 * [P2 bugs](#p2-bugs) - 1 open
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 16 open
-* [Popular issues](#popular-issues) - 478 open
+* [Popular issues](#popular-issues) - 479 open
 * [Popular features requests](#popular-features-requests) - 163 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -36,8 +36,11 @@ Name | Comments
 
 ## Bugs without priorities
 
-[0 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
+[1 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+-label%3AP0+-label%3AP1+-label%3AP2+-label%3AP3+-label%3AP4+-label%3Ap5+-label%3Ap6).
 
+Name | Comments
+-- | --
+[[linux, engine]: can't reuse event channel with same name on Linux](https://github.com/flutter/flutter/issues/126209)<br /><sub>[`engine`](https://github.com/flutter/flutter/labels/engine), [`platform-linux`](https://github.com/flutter/flutter/labels/platform-linux), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop), [`a: plugins`](https://github.com/flutter/flutter/labels/a%3A%20plugins)<br />[#126209](https://github.com/flutter/flutter/issues/126209) opened on May 6, 2023 by [Gustl22](https://api.github.com/users/Gustl22)</sub> | 💬 [5](https://github.com/flutter/flutter/issues/126209)
 
 ## P0 bugs
 
@@ -101,7 +104,7 @@ Name | Comments
 
 ## Popular issues
 
-[478 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[479 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
