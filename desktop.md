@@ -9,7 +9,7 @@ Triage queries:
 * [Flakes](#flakes) - 1 open
 * [Regressions](#regressions) - 8 open
 * [Crashes](#crashes) - 16 open
-* [Popular issues](#popular-issues) - 478 open
+* [Popular issues](#popular-issues) - 479 open
 * [Popular features requests](#popular-features-requests) - 165 open
 
 If you come across a bug that is unrelated to desktop app development, remove the `a: desktop label` and leave a comment explaining why. That will send it back to triage.
@@ -31,7 +31,7 @@ Name | Comments
 Name | Comments
 -- | --
 [Add an example showing how to use textures](https://github.com/flutter/flutter/pull/122779)<br /><sub>[`team`](https://github.com/flutter/flutter/labels/team), [`d: examples`](https://github.com/flutter/flutter/labels/d%3A%20examples), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#122779](https://github.com/flutter/flutter/pull/122779) opened on March 16, 2023 by [robert-ancell](https://api.github.com/users/robert-ancell)</sub> | 💬 [9](https://github.com/flutter/flutter/pull/122779)
-[Alert engine upon registering ServiceBinding](https://github.com/flutter/flutter/pull/126075)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#126075](https://github.com/flutter/flutter/pull/126075) opened on May 4, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [12](https://github.com/flutter/flutter/pull/126075)
+[Alert engine upon registering ServiceBinding](https://github.com/flutter/flutter/pull/126075)<br /><sub>[`framework`](https://github.com/flutter/flutter/labels/framework), [`platform-windows`](https://github.com/flutter/flutter/labels/platform-windows), [`a: desktop`](https://github.com/flutter/flutter/labels/a%3A%20desktop)<br />[#126075](https://github.com/flutter/flutter/pull/126075) opened on May 4, 2023 by [yaakovschectman](https://api.github.com/users/yaakovschectman)</sub> | 💬 [13](https://github.com/flutter/flutter/pull/126075)
 
 ## Bugs without priorities
 
@@ -105,7 +105,7 @@ Name | Comments
 
 ## Popular issues
 
-[478 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
+[479 open](https://github.com/flutter/flutter/issues?q=is%3Aopen+is%3Aissue+label%3A%22a%3A+desktop%22+sort%3Areactions-%2B1-desc+-label%3A%22new+feature%22+-label%3A%22severe%3A+new+feature%22).
 
 Name | Comments
 -- | --
