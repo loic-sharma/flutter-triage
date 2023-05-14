@@ -1,0 +1,97 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "# Tool\r\n\r\nFlutter CLI tool issue triage happens weekly. In order, triage open issues with the label:\r\n\r\n* [P0](#p0)\r\n* [P1](#p1)\r\n* [P2](#p2)\r\n* [Reproducible issues](#reproducible-issues)\r\n* [P3](#p3)\r\n* [Popular issues](#popular-issues)\r\n* [Popular feature requests](#popular-feature-requests)\r\n* [Unprioritized issues](#unprioritized-issues)\r\n\r\nFor each group of issues:\r\n\r\n* If an issue is completely unrelated to any tool code (for example, is a bug upstream in pub) find or file an upstream issue, link to that issue on the Flutter issue.\r\n* If the issue belongs to another domain (for example platform-web or platform-dart) ensure it has the correct label\r\n* Ensure it is assigned (if it is P3 or higher)\r\n* If the issue has not been updated [within a week](https://github.com/flutter/flutter/wiki/Issue-hygiene), ask the assignee on the issue for an update.\r\n* If the issue is blocked by something else, ensure that an issue is filed and an appropriate owner is aware of the blocker.\r\n\r\n[PRs](#prs) are also reviewed weekly.\r\n\r\n[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#tool)."
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P0"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:issue is:open label:tool label:p0 sort:updated-desc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P1"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:issue is:open label:tool label:p1 sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P2"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:issue is:open label:p2 label:tool sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Reproducible issues"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:issue is:open label:tool  sort:created-desc label:\"has reproducible steps\"  -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P3"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:issue is:open label:tool label:p3 sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Popular issues\r\n\r\nLook at the top 10ish:"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:tool sort:reactions-+1-desc -label:\"new feature\" -label:\"severe: new feature\" "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Popular feature requests\r\n\r\nLook at the top 10ish:"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:tool sort:reactions-+1-desc label:\"new feature\" "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Unprioritized issues"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:issue is:open label:tool -label:\"has reproducible steps\" sort:created-desc -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## PRs\r\n\r\nFor each PR, the team will ensure (in order):\r\n\r\n* There is a linked tracking issue (some trivial changes may not need tracking issues)\r\n* Its author has signed the CLA\r\n* CI tests are passing\r\n* Any changed behavior is tested\r\n* A reviewer is assigned\r\n\r\nPRs with the `waiting customer response` label for more than 3 weeks are closed with a message that they are welcome to re-open and address feedback.\r\n"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:pr label:tool sort:updated-asc -is:draft "
+  }
+]

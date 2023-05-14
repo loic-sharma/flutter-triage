@@ -1,0 +1,107 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "# Engine\r\n\r\n[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#engine).\r\n\r\n## Issue triage\r\n\r\n> ⚠️ This triage happens on Mondays. The contents here are mirrored from the\r\n> Google-internal document [go/flutter-engine-triage-playbook](http://go/flutter-engine-triage-playbooko)\r\n> and may be stale. Do NOT make changes to the instructions here as they will be\r\n> overwritten. ⚠️\r\n\r\n## Agenda\r\n\r\n* All issues in severity classes [P0](#p0), [P1](#p1) and [P2](#p2) need weekly review.\r\n* Fix priorities of [regressions found in the releases still in the CP window](#regressions-in-the-cherry-pick-window) need weekly review.\r\n* Assign priorities to unprioritized issues that have been tagged as [regressions](#regressions).\r\n* Assign priorities to unprioritized issues that have been tagged as [flakes](#flakes).\r\n* Assign priorities to unprioritized issues that have been tagged as [fatal crashes](#fatal-crashes) and [crashes](#crashes).\r\n* Assign priorities to unprioritized issues that have been tagged as [performance issues](#performance-issues).\r\n* Catch [unprioritized issues](#unprioritized-issues) not caught by other dragnets to assign priorities.\r\n* Shed a tear for all the other issues.\r\n* Pitch your favorite issues.\r\n\r\n## Issue Quality Checklist\r\n* Correct labels.\r\n* If you had to remove the engine label, stop and move on to the next issue.\r\n* If you had to remove a label that makes the bug no longer qualify for triage, stop and move onto the next issue.\r\n    * For example, if you were looking for unprioritized regressions but the issue is not a regression, remove the label and move on.\r\n* Hide low quality comments.\r\n* If an assignee is not necessary or cannot be found, find someone on the team that can be CC-ed if you think it’s necessary. CC folks sparingly. If you CC folks too much they will understandably stop responding. Don’t CC the same person more than a few times per triage run.\r\n\r\n## Tips\r\nRestrict time spent on each issue. You don’t have to fix the issue!\r\n30 seconds for P0, P1, P2 and 10~15 seconds for the others seems to work.\r\nIf the triage process cannot be completed within the allotted time, the process has failed. Perform items that could not be completed offline. Seek help.\r\n\r\n# Triage"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P0"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web label:P0 -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P1"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web label:P1 -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P2"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web label:P2 -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Regressions in the cherry pick window"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web label:\"severe: regression\" -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 label:\"found in release: 2.8\" -label:\"a: desktop\" sort:updated-desc \r\n\r\nrepo:flutter/flutter is:open is:issue label:engine -label:platform-web label:\"severe: regression\" -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 label:\"found in release: 2.9\" -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Regressions"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 label:\"severe: regression\" -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Flakes"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 label:\"team: flakes\" -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Fatal crashes"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 label:\"severe: fatal crash\" -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Crashes"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 label:\"severe: crash\" -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Performance issues"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:platform-web -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 label:\"severe: performance\" -label:\"a: desktop\" sort:updated-desc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Unprioritized issues"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:engine -label:\"in triage\" -label:\"waiting for customer response\" -label:P0 -label:P1 -label:P2 -label:P3 -label:P4 -label:P5 -label:P6 -label:platform-web sort:created-asc -label:\"a: desktop\" "
+  }
+]

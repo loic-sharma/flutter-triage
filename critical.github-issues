@@ -1,0 +1,132 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "# Critical triage\r\n\r\nDuring our weekly critical triage meeting, we check the following lists:\r\n\r\n* [P0](#p0)\r\n* [P1](#p1)\r\n* [P2](#p2)\r\n* [Bugs](#bugs)\r\n* [Stale PRs](#stale-prs)\r\n* [Oldest PRs](#oldest-prs)\r\n\r\n[Wiki instructions](https://github.com/flutter/flutter/wiki/triage#critical-triage).\r\n\r\n## Long-term triage\r\n\r\nOccasionally, when time allows, the following are worth taking a look at also:\r\n\r\n* [PRs needing additional triage](#prs-needing-additional-triage)\r\n* [Flakes](#flakes)\r\n* [Most requested issues](#most-requested-issues)\r\n* [Most requested bugs](#most-requested-bugs)\r\n* [Oldest bugs](#oldest-bugs)\r\n\r\nIn addition, a bot takes care of these, but it's good to check on them:\r\n\r\n* [Bugs pending feedback](#bugs-pending-feedback)"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P0\r\n\r\nAll bugs should be assigned, and progress should be happening actively.\r\nIf no progress is happening and owner cannot work on it immediately (e.g.\r\nthey're on vacation, they're busy with their day job, family reasons, etc),\r\nfind a new owner."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open label:P0 sort:updated-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "\r\n## P1\r\n\r\nAll bugs should be assigned. There should be a recent (last few days) update on\r\nthe issue. Blockers to addressing the issue should be identified. If no progress\r\nis happening and owner is not working on a P0 or other P1 but cannot work on it\r\nimmediately, find a new owner."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open label:P1 sort:updated-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## P2\r\n\r\nAll bugs should be assigned. There should be a recent (last couple of weeks)\r\nupdate on the issue. Blockers to addressing the issue should be identified. If\r\nno progress is happening and owner is not working on another P0-P2 but cannot\r\nwork on this one immediately, find a new owner."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open label:P2 sort:updated-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Bugs\r\n\r\nThese are flagged for additional triage. Figure out what should be done with the\r\nbug, then remove the `will need additional triage` label."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open label:\"will need additional triage\" sort:updated-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Stale PRs\r\n\r\nExamine the 25 least-recently updated PRs, if the least recently updated one was\r\nupdated more than 2 months ago. Until early 2022, this ignores PRs with the\r\nbacklog label, to allow teams time to catch up."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "is:open is:pr archived:false user:flutter sort:updated-asc -label:backlog "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Oldest PRs\r\n\r\nExamine the 25 oldest PRs regardless of when they were updated, to make sure\r\nthat they are not falling into the trap of asking for updates every month, thus\r\ngetting them marked as recently-updated."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "is:open is:pr archived:false user:flutter sort:created-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Long-term triage"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### PRs needing additional triage"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open label:\"will need additional triage\" sort:updated-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### Flakes\r\n\r\nCheck a few of the oldest flakes: are they still a problem (or is the test\r\nenabled and working now?). Is anyone looking at them?"
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:\"team: flakes\" sort:updated-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### Most requested issues\r\n\r\nCheck none of the top 20ish bugs are new, and they've all been considered before\r\nand have appropriate priorities."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue sort:reactions-+1-desc"
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Most requested bugs\r\n\r\nCheck nothing surprising in the list; consider adding `customer: crowd` `P2`\r\nlabels."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue sort:reactions-+1-desc -label:\"new feature\" -label:\"severe: new feature\""
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### Oldest bugs\r\n\r\nSee if they can be closed or updated."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue sort:updated-asc "
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### Bugs pending feedback\r\n\r\nA bot takes care of these, but it's good to check. Close bugs with outstanding\r\nrequests after 4 weeks, remove the label for bugs with answers."
+  },
+  {
+    "kind": 2,
+    "language": "github-issues",
+    "value": "repo:flutter/flutter is:open is:issue label:\"waiting for customer response\" sort:updated-desc "
+  }
+]
