@@ -1,0 +1,7 @@
+{
+  // List of extensions which should be recommended for users of this workspace.
+  // See https://go.microsoft.com/fwlink/?LinkId=827846
+  "recommendations": [
+    "ms-vscode.vscode-github-issue-notebooks"
+  ]
+}
