@@ -1,7 +1,0 @@
-name: flutter_triage
-environment:
-  sdk: '>=2.15.0 <3.0.0'
-dependencies:
-  http: ^0.13.5
-  intl: ^0.17.0
-  uri: ^1.0.0

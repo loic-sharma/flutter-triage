@@ -1,5 +1,5 @@
 # Flutter triage
 
-This generates dashboards for [Flutter's triage](https://github.com/flutter/flutter/wiki/triage) every 10 minutes:
+Dashboards for [Flutter's triage](https://github.com/flutter/flutter/wiki/triage):
 
-* [Desktop](./desktop.md)
+* [Desktop](https://github.dev/loic-sharma/flutter-triage/blob/main/desktop.github-issues)
