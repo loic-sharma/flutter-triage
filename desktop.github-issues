@@ -27,7 +27,7 @@
   {
     "kind": 2,
     "language": "github-issues",
-    "value": "$engine is:open is:pr label:\"affects: desktop\" sort:updated-asc"
+    "value": "$engine is:open is:pr -is:draft label:\"affects: desktop\" sort:updated-asc"
   },
   {
     "kind": 1,
@@ -37,7 +37,7 @@
   {
     "kind": 2,
     "language": "github-issues",
-    "value": "$flutter is:open is:pr label:\"a: desktop\" sort:updated-asc"
+    "value": "$flutter is:open is:pr -is:draft label:\"a: desktop\" sort:updated-asc"
   },
   {
     "kind": 1,
